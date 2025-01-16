@@ -1,0 +1,6 @@
+framework module Pods_SDKWrapperLibrary_Example {
+  umbrella header "Pods-SDKWrapperLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

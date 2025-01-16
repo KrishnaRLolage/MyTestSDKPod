@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SDKWrapperLibrary (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SDKWrapperLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SDKWrapperLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SDKWrapperLibrary: 5e69fd85603f473916637aea4c02138694354dcd
+
+PODFILE CHECKSUM: 9c17bf5e655b0c8fac267821a6eabb99bde3401b
+
+COCOAPODS: 1.16.2

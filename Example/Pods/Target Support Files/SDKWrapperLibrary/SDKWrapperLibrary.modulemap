@@ -1,0 +1,6 @@
+framework module SDKWrapperLibrary {
+  umbrella header "SDKWrapperLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
