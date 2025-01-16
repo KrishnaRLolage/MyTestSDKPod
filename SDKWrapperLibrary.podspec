@@ -138,7 +138,7 @@ Pod::Spec.new do |spec|
   spec.dependency "MicrosoftCognitiveServicesSpeech-iOS", "~> 1.33.0"
   
   spec.resource_bundles = {
-    'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/Classes/VendorFrameworks/Bundle/Resources/**', 'SDKWrapperLibrary/Classes/VendorFrameworks/Bundle/UI/**']
+    'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**', 'SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**']
   }
   spec.vendored_frameworks = 'SDKWrapperLibrary/Classes/VendorFrameworks/DragonMedicalSpeechKit.xcframework'
 
