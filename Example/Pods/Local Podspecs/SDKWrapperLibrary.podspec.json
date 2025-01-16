@@ -16,8 +16,8 @@
     "branch": "main"
   },
   "source_files": [
-    "Classes",
-    "SDKWrapperLibrary/Classes/**/*.{h,m}"
+    "SDKWrapperLibrary/Classes/**/*.{h,m}",
+    "SDKWrapperLibrary/VendorFrameworks/**"
   ],
   "dependencies": {
     "MicrosoftCognitiveServicesSpeech-iOS": [
