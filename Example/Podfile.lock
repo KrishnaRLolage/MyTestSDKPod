@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SDKWrapperLibrary (0.0.1)
+  - MicrosoftCognitiveServicesSpeech-iOS (1.33.0)
+  - SDKWrapperLibrary (0.0.1):
+    - MicrosoftCognitiveServicesSpeech-iOS (~> 1.33.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - MicrosoftCognitiveServicesSpeech-iOS
 
 EXTERNAL SOURCES:
   SDKWrapperLibrary:
@@ -20,8 +23,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SDKWrapperLibrary: 5e69fd85603f473916637aea4c02138694354dcd
+  MicrosoftCognitiveServicesSpeech-iOS: 6d5eb1887c84ea73483e89b285cd72d5be2f5d7e
+  SDKWrapperLibrary: 83ccf6f089e7ee95ab36b2a2a57bfcf984082c34
 
-PODFILE CHECKSUM: 9c17bf5e655b0c8fac267821a6eabb99bde3401b
+PODFILE CHECKSUM: 1edd3f0179c36879f77a664d84516f366040d5ae
 
 COCOAPODS: 1.16.2

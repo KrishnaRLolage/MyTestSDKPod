@@ -6,143 +6,212 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		97D3B6926BF0A2ABAB7F043559FA98A9 /* MicrosoftCognitiveServicesSpeech-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3CBB9D33C8647E5C84AD0FE6270C49FB /* Build configuration list for PBXAggregateTarget "MicrosoftCognitiveServicesSpeech-iOS" */;
+			buildPhases = (
+				F69AFD17E6B67DA7C661EF994963966F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "MicrosoftCognitiveServicesSpeech-iOS";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		0A1BB7D09F09E47A392F07D53032A44E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C89789BEC094ACE00A5A248A3522E9DC /* en.lproj */; };
 		0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */; };
-		12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B6BC0AAADFEC678C48324169D25D676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
-		267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		3184844BE00FCFBFC14DEE45F9DAD306 /* SDKWrapperLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99871160B40473EAAB07ECF783BC3BA5 /* SDKWrapperLibrary-dummy.m */; };
+		12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 01199143C6BCA6C39116E520812ADD52 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		171C16F136500446B515E3F446969EA6 /* SDKWrapperLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 997D0EC110A036FACCF82EA8630EEA19 /* SDKWrapperLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		197ADF9D3A472A5099079E7FF5E11292 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4036C70EA562D2EEBED0314E012D9951 /* it.lproj */; };
+		267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2624FA6296D9A2E88E6E9E39FB3994 /* FBSnapshotTestController.m */; };
+		26857BFC723C955E92F29674E98EB099 /* _CodeSignature in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB3EA90B654C284ACBC2A0C8E94E2B /* _CodeSignature */; };
+		29E8A1516AB5D9DF76A73888AC150B4C /* Correction.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = BF55FC4DDE8B1C683E1914177C6F8807 /* Correction.storyboardc */; };
 		33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */; };
 		35D9145FBCDFFFF4E0CC5C51490E43EE /* Pods-SDKWrapperLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE61D792CC465F7BE7901DD4F5F8E63F /* Pods-SDKWrapperLibrary_Tests-dummy.m */; };
 		3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */; };
-		3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54D71A6E981AF5DFC40A5A1905847BA0 /* SDKWrapperLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E637380E8B79EEA9FFCEF0DA2CDD993 /* SDKWrapperLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		6048E48EB8863FB2FCAAE1412F8763FE /* DLNuanceDictationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4496250ABA62D3719597011B3FBEDE63 /* DLNuanceDictationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F95C5BF3F1C0F1B9BF964FE7DEB29BD /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410553A33DCB277A390091600BAE2DB9 /* Pods-SDKWrapperLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4004EE7AD67919403898AD7D7C50E2BF /* Pods-SDKWrapperLibrary_Example-dummy.m */; };
+		4FA4CA8BA1942F4E5C03A9BF358612A3 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DC6B3D1CA71E50EC5709AA49606571B8 /* nl.lproj */; };
+		535AD202B70B2D857888DE5D6965AA99 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 119B92275029E2994D2E1C66AF95262B /* es.lproj */; };
+		55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B8677876B694A50E954A9BF46A14F612 /* FBSnapshotTestCase.m */; };
+		58712E7BF953AE0B391BA554E698CB29 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 94EED6A12B2CFA0D115754DA61E01C47 /* fi.lproj */; };
+		593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 883B6EEA186C1069DF87B06B0E6950D1 /* UIImage+Compare.m */; };
+		5953443113E6448B330AB16B89FC34D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		62FC64CC15E833AE4445A74ACC1A001F /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B8A157C53378919DA600F8E6C32A4BCE /* ca.lproj */; };
+		64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0468AD8A22C1DE8ED94FFC0CAC9B81 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		72CBC1EDD2977E0A0E53FBE13B839D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
-		76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 254B86519D833D6A11153216E989B588 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB68DAB93CC18653815A32BF8EA0A9 /* UIImage+Diff.m */; };
 		7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
-		8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		87D39999A434F9F2D1DF9BC14E28710B /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7438420A4655E990B5AFA2231C68578B /* sv.lproj */; };
+		8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AC675657DAC1DB8F917ECE113DB03 /* SwiftSupport.swift */; };
+		9DD443F0D3AC8CE8BF2C17569447743F /* mid_fa.table in Resources */ = {isa = PBXBuildFile; fileRef = 602C45917D44BEA9A3FF50B2D7598DC7 /* mid_fa.table */; };
+		A04D0FB7C602F5D4B568D77112AF4C7C /* DLNuanceDictationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22213076E582FC7834DEA562A611385D /* DLNuanceDictationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4D934DA8D1DFBAC31080FFA8DF1F05 /* SDKWrapperLibrary-DragonMedicalSpeechKit in Resources */ = {isa = PBXBuildFile; fileRef = ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */; };
+		AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9E5FE626767745837A857DE895FEE /* FBSnapshotTestCasePlatform.m */; };
 		B2816AB17DFFC590FB73929A5A6DE0D5 /* Pods-SDKWrapperLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26E8C66FF9D604CB8625448DB96C1A4 /* Pods-SDKWrapperLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB972727B1B6D563E30106C73BD1988D /* Pods-SDKWrapperLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9D31641AF977B8D3CABAD1ABAA932D /* Pods-SDKWrapperLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C947289505C55FE1460C03579F94C253 /* Pods-SDKWrapperLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4004EE7AD67919403898AD7D7C50E2BF /* Pods-SDKWrapperLibrary_Example-dummy.m */; };
-		CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0838EEC36B31A3F6DD874D8AB0FB491 /* DLNuanceDictationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13753216F8A7037B316473DF6387955C /* DLNuanceDictationManager.m */; };
-		E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		FD1E1D10B63EDAD74DF62F166E9C8D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		B56CDB37FD868B67735F5F4A6EDAD29A /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B71489A85973E4ECEC8C4B2016E00763 /* de.lproj */; };
+		BECE5E4AEC094258CA553E13DB8A8965 /* Pods-SDKWrapperLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9D31641AF977B8D3CABAD1ABAA932D /* Pods-SDKWrapperLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00572EB085D70C3A9695385372B52 /* UIApplication+StrictKeyWindow.m */; };
+		CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B8E96ABEF46B4178F1C29DFCD4B00E /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D13EB162237D42911D19B50316534799 /* sl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C2406C7427F585B988E391B110C13426 /* sl.lproj */; };
+		DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E0F0F7080748E1C88528CD9ACEA51E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0E430161D6382C2FD72DA2322B01A5D /* DLNuanceDictationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF62E0445FBA12F34DBF96EF4263A152 /* DLNuanceDictationManager.m */; };
+		E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEF60C5349E5C4274E914F67ACEC1F1 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F5C268382B74C0B7A6C729A499B7F /* FBSnapshotTestCase-dummy.m */; };
+		E9A767E632A6DDF4EBA3B157C2224A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 65092913C5711AC7FAC27A87A7B5347A /* UIImage+Snapshot.m */; };
+		EAB2B0520AA69F2E6318085B0262A736 /* SDKWrapperLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F44F4D608906620EA3456D102D0B9E /* SDKWrapperLibrary-dummy.m */; };
+		EBEF3F841F46443AFAAD271CE4466F09 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8299D1D2052683A7D76E1A206AB6D9BA /* nb.lproj */; };
+		F2070B9BC864E5AF7BFFAB664E62C389 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 097A46616232F326FF51832EEAE04A7C /* da.lproj */; };
+		F330CD4B575F75788BABA9AC73364ED4 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 900B7327EF31A95DC9C47A3D43252044 /* pt.lproj */; };
+		F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D9ADD051B155721230F74DE22F4493 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FF011BBE3D0655D28F574B7AFC6E4AA6 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9012DBD34DBF469B295F3A4089EFBA8E /* fr.lproj */; };
+		FF1CC9F690DF16A332B4D1E13C2F43F3 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6A99025CF2C60922D4D782D4AABE1B58 /* hu.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7FCB97F533D79170321B70133279AF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1670FE3E1BBAAB2E56900B7651859D97;
-			remoteInfo = SDKWrapperLibrary;
-		};
-		D0A3066E3BE29EA4CC5E6AA260F44098 /* PBXContainerItemProxy */ = {
+		1BAD5E153BD2EC9C34A2A608B3905D8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		E95EEA12DA85802A6849DFFA7C6219D4 /* PBXContainerItemProxy */ = {
+		2EE1E777089FD1DEE3D6236B8F1F4E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41680BAACFE05E80E86B85F221D5D1DE;
+			remoteInfo = "SDKWrapperLibrary-DragonMedicalSpeechKit";
+		};
+		5FF0FDF818A65ACB55D2AD893C881934 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5E5E2FF1F604070ACD1461DA50F81F37;
 			remoteInfo = "Pods-SDKWrapperLibrary_Example";
 		};
+		87F93DDDDCD513C520D66E02A406BC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D3B6926BF0A2ABAB7F043559FA98A9;
+			remoteInfo = "MicrosoftCognitiveServicesSpeech-iOS";
+		};
+		88D6BFB0F5DBF6F19CAB548E906C02EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D3B6926BF0A2ABAB7F043559FA98A9;
+			remoteInfo = "MicrosoftCognitiveServicesSpeech-iOS";
+		};
+		EBBCDAB0AF07F3124E8A14A805BD1325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1670FE3E1BBAAB2E56900B7651859D97;
+			remoteInfo = SDKWrapperLibrary;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		103DC7CDFCA95B45FAD233E4D90CC52A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01199143C6BCA6C39116E520812ADD52 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		097A46616232F326FF51832EEAE04A7C /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = da.lproj; sourceTree = "<group>"; };
+		09A3E4CCCCC787718F7685DB55349D37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0B9F5C268382B74C0B7A6C729A499B7F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		119B92275029E2994D2E1C66AF95262B /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = es.lproj; sourceTree = "<group>"; };
 		1266D24F6945F1F2706F994C0EB3CE2E /* Pods-SDKWrapperLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		13753216F8A7037B316473DF6387955C /* DLNuanceDictationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNuanceDictationManager.m; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.m; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1B8B9F0B1004312DA3834B4C39C55B48 /* Pods-SDKWrapperLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F9D31641AF977B8D3CABAD1ABAA932D /* Pods-SDKWrapperLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKWrapperLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		22213076E582FC7834DEA562A611385D /* DLNuanceDictationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNuanceDictationManager.h; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.h; sourceTree = "<group>"; };
+		24940CEC19E7260398D0AF8DC9247D83 /* SDKWrapperLibrary-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SDKWrapperLibrary-xcframeworks.sh"; sourceTree = "<group>"; };
+		24F07A014C971DDDA281D05CCA344379 /* MicrosoftCognitiveServicesSpeech.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MicrosoftCognitiveServicesSpeech.xcframework; sourceTree = "<group>"; };
+		254B86519D833D6A11153216E989B588 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		3E637380E8B79EEA9FFCEF0DA2CDD993 /* SDKWrapperLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-umbrella.h"; sourceTree = "<group>"; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3AFBB02030FA8D5DB09CA9DE8E99231E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3F95C5BF3F1C0F1B9BF964FE7DEB29BD /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		4004EE7AD67919403898AD7D7C50E2BF /* Pods-SDKWrapperLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKWrapperLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		4036C70EA562D2EEBED0314E012D9951 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = it.lproj; sourceTree = "<group>"; };
 		4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4496250ABA62D3719597011B3FBEDE63 /* DLNuanceDictationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNuanceDictationManager.h; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.h; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		42D9ADD051B155721230F74DE22F4493 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		43EBC92E4E035E8404171AB7370399F6 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		4AB6DF3E54AF9088494910D11D397AAD /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE00572EB085D70C3A9695385372B52 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		602C45917D44BEA9A3FF50B2D7598DC7 /* mid_fa.table */ = {isa = PBXFileReference; includeInIndex = 1; path = mid_fa.table; sourceTree = "<group>"; };
+		65092913C5711AC7FAC27A87A7B5347A /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A234BD25822B216FD4ECBFD1D90900C /* Pods-SDKWrapperLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		716CB50D55E63E8BE56AA9083041704D /* SDKWrapperLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-prefix.pch"; sourceTree = "<group>"; };
+		6A99025CF2C60922D4D782D4AABE1B58 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = hu.lproj; sourceTree = "<group>"; };
+		73B9643A238C876DE966F6A016D9CF59 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		7438420A4655E990B5AFA2231C68578B /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sv.lproj; sourceTree = "<group>"; };
 		7B87C54431C6F8109D8C76186DC2A6E2 /* Pods-SDKWrapperLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKWrapperLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7E275A7F0FC52E8F5F862E10F82E73AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		844F91CCD4316EECABF7921CA27A1816 /* SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7FAB68DAB93CC18653815A32BF8EA0A9 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		80B8090C569E21D11EAF6F5DCAD9DE00 /* MicrosoftCognitiveServicesSpeech-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MicrosoftCognitiveServicesSpeech-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8299D1D2052683A7D76E1A206AB6D9BA /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nb.lproj; sourceTree = "<group>"; };
+		883B6EEA186C1069DF87B06B0E6950D1 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		8A13C389DB747DAF27A552978EFCEFEC /* Pods-SDKWrapperLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.release.xcconfig; sourceTree = "<group>"; };
+		8EAB3EA90B654C284ACBC2A0C8E94E2B /* _CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = _CodeSignature; sourceTree = "<group>"; };
+		900B7327EF31A95DC9C47A3D43252044 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pt.lproj; sourceTree = "<group>"; };
+		9012DBD34DBF469B295F3A4089EFBA8E /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fr.lproj; sourceTree = "<group>"; };
 		92D60EDABE68372CF66617AFA87571D4 /* Pods-SDKWrapperLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		99871160B40473EAAB07ECF783BC3BA5 /* SDKWrapperLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKWrapperLibrary-dummy.m"; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		94EED6A12B2CFA0D115754DA61E01C47 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fi.lproj; sourceTree = "<group>"; };
+		997D0EC110A036FACCF82EA8630EEA19 /* SDKWrapperLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-umbrella.h"; sourceTree = "<group>"; };
+		9C1AC675657DAC1DB8F917ECE113DB03 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0B4A272362E7DF007D7745A6D27E15F /* Pods-SDKWrapperLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		A26E8C66FF9D604CB8625448DB96C1A4 /* Pods-SDKWrapperLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKWrapperLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A7DED100DB3AF4523610679974339EA9 /* SDKWrapperLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.debug.xcconfig; sourceTree = "<group>"; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		AF735BF59970278C369D3EFC4EE2A4DE /* SDKWrapperLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKWrapperLibrary.modulemap; sourceTree = "<group>"; };
-		B1CA86575A77FD8DCA2956574578DE43 /* SDKWrapperLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKWrapperLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E0F0F7080748E1C88528CD9ACEA51E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B31597C5BA9975F515CDFA45E4882D9B /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		B5B8E96ABEF46B4178F1C29DFCD4B00E /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B6F40580DEDF207F22E8A08C89F9A366 /* Pods-SDKWrapperLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B71489A85973E4ECEC8C4B2016E00763 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = de.lproj; sourceTree = "<group>"; };
+		B8677876B694A50E954A9BF46A14F612 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		B8A157C53378919DA600F8E6C32A4BCE /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ca.lproj; sourceTree = "<group>"; };
+		B8CDAE9C5E74D230FF4FC69645627401 /* SDKWrapperLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKWrapperLibrary.modulemap; sourceTree = "<group>"; };
 		BA71C1D6A6B93DCF369401ABBFE047AF /* Pods-SDKWrapperLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKWrapperLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEB2073124E6CD8032C938771EC89297 /* SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
+		BF5264B5DE214440E5465B3EBD3FF58E /* DragonMedicalSpeechKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = DragonMedicalSpeechKit.xcframework; path = SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework; sourceTree = "<group>"; };
+		BF55FC4DDE8B1C683E1914177C6F8807 /* Correction.storyboardc */ = {isa = PBXFileReference; includeInIndex = 1; path = Correction.storyboardc; sourceTree = "<group>"; };
+		C03C53955FE0F0B3791A40A49A3EEBD1 /* ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
 		C15ED5F648CB4F592FE8A9F8E4441E8A /* Pods-SDKWrapperLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKWrapperLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		C2406C7427F585B988E391B110C13426 /* sl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sl.lproj; sourceTree = "<group>"; };
+		C89789BEC094ACE00A5A248A3522E9DC /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
+		CB2624FA6296D9A2E88E6E9E39FB3994 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		CC94FCD115CAB399F984AC556F8E1D1F /* Pods-SDKWrapperLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKWrapperLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CD0468AD8A22C1DE8ED94FFC0CAC9B81 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		CDB9115D7C470385DFCDBA80AEF2A979 /* Pods-SDKWrapperLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SDKWrapperLibrary_Example"; path = Pods_SDKWrapperLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D1B00D8AFB54FA04926FF90D7C3A9E29 /* SDKWrapperLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-prefix.pch"; sourceTree = "<group>"; };
+		D4CA7C86D2B2057B4D7295F88536E0D8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D65794E7025CB62B3131DA630128D8D9 /* Pods-SDKWrapperLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SDKWrapperLibrary_Tests"; path = Pods_SDKWrapperLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		E1EFFF66C596D2789D975EA40B682638 /* SDKWrapperLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.release.xcconfig; sourceTree = "<group>"; };
+		DC6B3D1CA71E50EC5709AA49606571B8 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nl.lproj; sourceTree = "<group>"; };
 		E366F95DA382C15B23BB6DF779631F39 /* Pods-SDKWrapperLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SDKWrapperLibrary-DragonMedicalSpeechKit"; path = DragonMedicalSpeechKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEF60C5349E5C4274E914F67ACEC1F1 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		F2D1C5617D4BD6516FF4F7FB11874EDC /* Pods-SDKWrapperLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKWrapperLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		F6F44F4D608906620EA3456D102D0B9E /* SDKWrapperLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKWrapperLibrary-dummy.m"; sourceTree = "<group>"; };
 		FA2DACD595CF2377792046661FA3EFDD /* SDKWrapperLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDKWrapperLibrary; path = SDKWrapperLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA79C29B2F7401831C839585F11F15EE /* MicrosoftCognitiveServicesSpeech-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MicrosoftCognitiveServicesSpeech-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF9E5FE626767745837A857DE895FEE /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		FC3D163AB2C2DAFE7DD906C7F148BAB7 /* Pods-SDKWrapperLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKWrapperLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		FE61D792CC465F7BE7901DD4F5F8E63F /* Pods-SDKWrapperLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKWrapperLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FE701F178CCC600BFD5A1668B92C96E1 /* MicrosoftCognitiveServicesSpeech-iOS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MicrosoftCognitiveServicesSpeech-iOS-xcframeworks.sh"; sourceTree = "<group>"; };
+		FF62E0445FBA12F34DBF96EF4263A152 /* DLNuanceDictationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNuanceDictationManager.m; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.m; sourceTree = "<group>"; };
+		FFB646E7EA737F21C83697F2AB6EEB6D /* SDKWrapperLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKWrapperLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CF18DA3F3585F13068020960EA9A9AD /* Frameworks */ = {
+		37AB6886221761FE6E74BDC5F6411F15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1E1D10B63EDAD74DF62F166E9C8D79 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F76A579FDD8B29A3756D42DDCA7ABA0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B6BC0AAADFEC678C48324169D25D676 /* Foundation.framework in Frameworks */,
+				E9A767E632A6DDF4EBA3B157C2224A5E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +234,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A58161D035D581D55FDB9B8077F9E41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5953443113E6448B330AB16B89FC34D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8740F41AE87AA279AEA55DF414DB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E8E3C47752527CB5BA809F12BF8F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF5264B5DE214440E5465B3EBD3FF58E /* DragonMedicalSpeechKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		14D93F8C6FE47FFDD3D3857FDB121EC1 /* Pods-SDKWrapperLibrary_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,70 +277,102 @@
 			path = "Target Support Files/Pods-SDKWrapperLibrary_Example";
 			sourceTree = "<group>";
 		};
-		3112C839D053A7CB641484FDE6F3DEE3 /* SDKWrapperLibrary */ = {
+		15CD400CC25206B4E0C8FF14A81374F5 /* SDKWrapperLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				4496250ABA62D3719597011B3FBEDE63 /* DLNuanceDictationManager.h */,
-				13753216F8A7037B316473DF6387955C /* DLNuanceDictationManager.m */,
-				3CD8C8960734C9242C5CD62B839EE952 /* Pod */,
-				677390498177BBFA124B5E0814DCF9B9 /* Support Files */,
+				22213076E582FC7834DEA562A611385D /* DLNuanceDictationManager.h */,
+				FF62E0445FBA12F34DBF96EF4263A152 /* DLNuanceDictationManager.m */,
+				04E8E3C47752527CB5BA809F12BF8F0C /* Frameworks */,
+				D9C0C715EEBCA08CBDA9FAC172A2D4BF /* Pod */,
+				E696EC5924E24BDD19C8E51F878AAA81 /* Resources */,
+				244C084A9408A7852B8F09B8004DDDFC /* Support Files */,
+				5174ACD6F075E969635FABC34A012CF3 /* UI */,
 			);
 			name = SDKWrapperLibrary;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3CD8C8960734C9242C5CD62B839EE952 /* Pod */ = {
+		2277AE63F8E73915AF38A623ADE5153C /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				103DC7CDFCA95B45FAD233E4D90CC52A /* LICENSE */,
-				7E275A7F0FC52E8F5F862E10F82E73AE /* README.md */,
-				B1CA86575A77FD8DCA2956574578DE43 /* SDKWrapperLibrary.podspec */,
+				4DCA97BD30FF5578801851A0322332FE /* Core */,
+				C0AB2E0F8FEC5E9A336AC564DA0D13D7 /* Support Files */,
+				4E7991B81BAFDD50FCB79476B2473095 /* SwiftSupport */,
 			);
-			name = Pod;
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		49EFB19220F36BE24E9138B5C5B94BB9 /* Development Pods */ = {
+		244C084A9408A7852B8F09B8004DDDFC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3112C839D053A7CB641484FDE6F3DEE3 /* SDKWrapperLibrary */,
+				C03C53955FE0F0B3791A40A49A3EEBD1 /* ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist */,
+				B8CDAE9C5E74D230FF4FC69645627401 /* SDKWrapperLibrary.modulemap */,
+				F6F44F4D608906620EA3456D102D0B9E /* SDKWrapperLibrary-dummy.m */,
+				BEB2073124E6CD8032C938771EC89297 /* SDKWrapperLibrary-Info.plist */,
+				D1B00D8AFB54FA04926FF90D7C3A9E29 /* SDKWrapperLibrary-prefix.pch */,
+				997D0EC110A036FACCF82EA8630EEA19 /* SDKWrapperLibrary-umbrella.h */,
+				24940CEC19E7260398D0AF8DC9247D83 /* SDKWrapperLibrary-xcframeworks.sh */,
+				A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */,
+				8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDKWrapperLibrary";
 			sourceTree = "<group>";
 		};
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+		2EB9084E893A6461AA0E8A0BE60C1DC3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+				2277AE63F8E73915AF38A623ADE5153C /* FBSnapshotTestCase */,
+				E8DB0EDBB5037D526DEF1E9A88ACA3F9 /* MicrosoftCognitiveServicesSpeech-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DCA97BD30FF5578801851A0322332FE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				01199143C6BCA6C39116E520812ADD52 /* FBSnapshotTestCase.h */,
+				B8677876B694A50E954A9BF46A14F612 /* FBSnapshotTestCase.m */,
+				254B86519D833D6A11153216E989B588 /* FBSnapshotTestCasePlatform.h */,
+				FAF9E5FE626767745837A857DE895FEE /* FBSnapshotTestCasePlatform.m */,
+				B5B8E96ABEF46B4178F1C29DFCD4B00E /* FBSnapshotTestController.h */,
+				CB2624FA6296D9A2E88E6E9E39FB3994 /* FBSnapshotTestController.m */,
+				A9E0F0F7080748E1C88528CD9ACEA51E /* UIApplication+StrictKeyWindow.h */,
+				5DE00572EB085D70C3A9695385372B52 /* UIApplication+StrictKeyWindow.m */,
+				EDEF60C5349E5C4274E914F67ACEC1F1 /* UIImage+Compare.h */,
+				883B6EEA186C1069DF87B06B0E6950D1 /* UIImage+Compare.m */,
+				42D9ADD051B155721230F74DE22F4493 /* UIImage+Diff.h */,
+				7FAB68DAB93CC18653815A32BF8EA0A9 /* UIImage+Diff.m */,
+				CD0468AD8A22C1DE8ED94FFC0CAC9B81 /* UIImage+Snapshot.h */,
+				65092913C5711AC7FAC27A87A7B5347A /* UIImage+Snapshot.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		677390498177BBFA124B5E0814DCF9B9 /* Support Files */ = {
+		4E7991B81BAFDD50FCB79476B2473095 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				AF735BF59970278C369D3EFC4EE2A4DE /* SDKWrapperLibrary.modulemap */,
-				99871160B40473EAAB07ECF783BC3BA5 /* SDKWrapperLibrary-dummy.m */,
-				844F91CCD4316EECABF7921CA27A1816 /* SDKWrapperLibrary-Info.plist */,
-				716CB50D55E63E8BE56AA9083041704D /* SDKWrapperLibrary-prefix.pch */,
-				3E637380E8B79EEA9FFCEF0DA2CDD993 /* SDKWrapperLibrary-umbrella.h */,
-				A7DED100DB3AF4523610679974339EA9 /* SDKWrapperLibrary.debug.xcconfig */,
-				E1EFFF66C596D2789D975EA40B682638 /* SDKWrapperLibrary.release.xcconfig */,
+				9C1AC675657DAC1DB8F917ECE113DB03 /* SwiftSupport.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SDKWrapperLibrary";
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		4EA0987C0DF827DEDFEC8FB88C8BD620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F07A014C971DDDA281D05CCA344379 /* MicrosoftCognitiveServicesSpeech.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5174ACD6F075E969635FABC34A012CF3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BF55FC4DDE8B1C683E1914177C6F8807 /* Correction.storyboardc */,
+			);
+			name = UI;
+			path = SDKWrapperLibrary/VendorFrameworks/Bundle/UI;
 			sourceTree = "<group>";
 		};
 		89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */ = {
@@ -262,27 +386,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+		9065D967AB38EE701805B3C0F57CEF93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				CDB9115D7C470385DFCDBA80AEF2A979 /* Pods-SDKWrapperLibrary_Example */,
+				D65794E7025CB62B3131DA630128D8D9 /* Pods-SDKWrapperLibrary_Tests */,
+				FA2DACD595CF2377792046661FA3EFDD /* SDKWrapperLibrary */,
+				ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */,
 			);
-			name = SwiftSupport;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+		A7063080214571CEC8BBFAC94362A6CB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+				FE701F178CCC600BFD5A1668B92C96E1 /* MicrosoftCognitiveServicesSpeech-iOS-xcframeworks.sh */,
+				FA79C29B2F7401831C839585F11F15EE /* MicrosoftCognitiveServicesSpeech-iOS.debug.xcconfig */,
+				80B8090C569E21D11EAF6F5DCAD9DE00 /* MicrosoftCognitiveServicesSpeech-iOS.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = "../Target Support Files/MicrosoftCognitiveServicesSpeech-iOS";
 			sourceTree = "<group>";
 		};
 		B7C6A70F8842A363B26700B43B62FD06 /* Targets Support Files */ = {
@@ -302,46 +426,83 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+		C0AB2E0F8FEC5E9A336AC564DA0D13D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+				4AB6DF3E54AF9088494910D11D397AAD /* FBSnapshotTestCase.modulemap */,
+				0B9F5C268382B74C0B7A6C729A499B7F /* FBSnapshotTestCase-dummy.m */,
+				73B9643A238C876DE966F6A016D9CF59 /* FBSnapshotTestCase-Info.plist */,
+				D4CA7C86D2B2057B4D7295F88536E0D8 /* FBSnapshotTestCase-prefix.pch */,
+				3F95C5BF3F1C0F1B9BF964FE7DEB29BD /* FBSnapshotTestCase-umbrella.h */,
+				43EBC92E4E035E8404171AB7370399F6 /* FBSnapshotTestCase.debug.xcconfig */,
+				B31597C5BA9975F515CDFA45E4882D9B /* FBSnapshotTestCase.release.xcconfig */,
 			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				49EFB19220F36BE24E9138B5C5B94BB9 /* Development Pods */,
+				D81A757BE795C925198A722F2B170748 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				EBA81CC9B14D7BD7B52A8671063F4EA9 /* Products */,
+				2EB9084E893A6461AA0E8A0BE60C1DC3 /* Pods */,
+				9065D967AB38EE701805B3C0F57CEF93 /* Products */,
 				B7C6A70F8842A363B26700B43B62FD06 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		D81A757BE795C925198A722F2B170748 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+				15CD400CC25206B4E0C8FF14A81374F5 /* SDKWrapperLibrary */,
 			);
-			name = Pods;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EBA81CC9B14D7BD7B52A8671063F4EA9 /* Products */ = {
+		D9C0C715EEBCA08CBDA9FAC172A2D4BF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
-				CDB9115D7C470385DFCDBA80AEF2A979 /* Pods-SDKWrapperLibrary_Example */,
-				D65794E7025CB62B3131DA630128D8D9 /* Pods-SDKWrapperLibrary_Tests */,
-				FA2DACD595CF2377792046661FA3EFDD /* SDKWrapperLibrary */,
+				3AFBB02030FA8D5DB09CA9DE8E99231E /* LICENSE */,
+				09A3E4CCCCC787718F7685DB55349D37 /* README.md */,
+				FFB646E7EA737F21C83697F2AB6EEB6D /* SDKWrapperLibrary.podspec */,
 			);
-			name = Products;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E696EC5924E24BDD19C8E51F878AAA81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB3EA90B654C284ACBC2A0C8E94E2B /* _CodeSignature */,
+				B8A157C53378919DA600F8E6C32A4BCE /* ca.lproj */,
+				097A46616232F326FF51832EEAE04A7C /* da.lproj */,
+				B71489A85973E4ECEC8C4B2016E00763 /* de.lproj */,
+				C89789BEC094ACE00A5A248A3522E9DC /* en.lproj */,
+				119B92275029E2994D2E1C66AF95262B /* es.lproj */,
+				94EED6A12B2CFA0D115754DA61E01C47 /* fi.lproj */,
+				9012DBD34DBF469B295F3A4089EFBA8E /* fr.lproj */,
+				6A99025CF2C60922D4D782D4AABE1B58 /* hu.lproj */,
+				4036C70EA562D2EEBED0314E012D9951 /* it.lproj */,
+				602C45917D44BEA9A3FF50B2D7598DC7 /* mid_fa.table */,
+				8299D1D2052683A7D76E1A206AB6D9BA /* nb.lproj */,
+				DC6B3D1CA71E50EC5709AA49606571B8 /* nl.lproj */,
+				900B7327EF31A95DC9C47A3D43252044 /* pt.lproj */,
+				C2406C7427F585B988E391B110C13426 /* sl.lproj */,
+				7438420A4655E990B5AFA2231C68578B /* sv.lproj */,
+			);
+			name = Resources;
+			path = SDKWrapperLibrary/VendorFrameworks/Bundle/Resources;
+			sourceTree = "<group>";
+		};
+		E8DB0EDBB5037D526DEF1E9A88ACA3F9 /* MicrosoftCognitiveServicesSpeech-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0987C0DF827DEDFEC8FB88C8BD620 /* Frameworks */,
+				A7063080214571CEC8BBFAC94362A6CB /* Support Files */,
+			);
+			name = "MicrosoftCognitiveServicesSpeech-iOS";
+			path = "MicrosoftCognitiveServicesSpeech-iOS";
 			sourceTree = "<group>";
 		};
 		EFE3C4E887382A91BEEE87861145430E /* Pods-SDKWrapperLibrary_Tests */ = {
@@ -364,6 +525,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		587F476D8C1E5FBAB4DB4257C8B53243 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECE5E4AEC094258CA553E13DB8A8965 /* Pods-SDKWrapperLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,14 +548,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7CB5C0E65D11D010E1F1B8C247559E0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB972727B1B6D563E30106C73BD1988D /* Pods-SDKWrapperLibrary_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D98A1F11CEAFAB92F2E497C1C96EEF1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,12 +556,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1022425A5F0C1AE63DB87C9FC406319 /* Headers */ = {
+		EDD8E6A36A0D35A4FBEFC5BCEFA85796 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6048E48EB8863FB2FCAAE1412F8763FE /* DLNuanceDictationManager.h in Headers */,
-				54D71A6E981AF5DFC40A5A1905847BA0 /* SDKWrapperLibrary-umbrella.h in Headers */,
+				A04D0FB7C602F5D4B568D77112AF4C7C /* DLNuanceDictationManager.h in Headers */,
+				171C16F136500446B515E3F446969EA6 /* SDKWrapperLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,35 +570,56 @@
 /* Begin PBXNativeTarget section */
 		1670FE3E1BBAAB2E56900B7651859D97 /* SDKWrapperLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76F04ED985402203B68F2FA15A2056FC /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */;
+			buildConfigurationList = 9AAE7BDB0C3C74EB835ED46FEB36A00E /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */;
 			buildPhases = (
-				F1022425A5F0C1AE63DB87C9FC406319 /* Headers */,
-				FFCCE6A8F0B46E84E5ABCBC6143940FF /* Sources */,
-				2F76A579FDD8B29A3756D42DDCA7ABA0 /* Frameworks */,
-				CFA3DBD595033B0002AC34FDE70A5F8E /* Resources */,
+				EDD8E6A36A0D35A4FBEFC5BCEFA85796 /* Headers */,
+				98D21338DCF9ACACB718A7343F8B4C3D /* [CP] Copy XCFrameworks */,
+				96F0A3F31EBE0E32B6D6B3A1D61A027F /* Sources */,
+				37AB6886221761FE6E74BDC5F6411F15 /* Frameworks */,
+				65BC0A925E46E4EA9B4D4EC06BC2A8D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A83C8CBAE075E45F6221583D02B7A6E0 /* PBXTargetDependency */,
+				BB29B098D8AB34C5623B01B9079BEE70 /* PBXTargetDependency */,
 			);
 			name = SDKWrapperLibrary;
 			productName = SDKWrapperLibrary;
 			productReference = FA2DACD595CF2377792046661FA3EFDD /* SDKWrapperLibrary */;
 			productType = "com.apple.product-type.framework";
 		};
-		5E5E2FF1F604070ACD1461DA50F81F37 /* Pods-SDKWrapperLibrary_Example */ = {
+		41680BAACFE05E80E86B85F221D5D1DE /* SDKWrapperLibrary-DragonMedicalSpeechKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05928761F23EEEBC56723263CAAD35D7 /* Build configuration list for PBXNativeTarget "Pods-SDKWrapperLibrary_Example" */;
+			buildConfigurationList = 8F4A81EC8732E2E3D0A4FE69DC64DC1B /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DragonMedicalSpeechKit" */;
 			buildPhases = (
-				A7CB5C0E65D11D010E1F1B8C247559E0 /* Headers */,
-				296DA724F4A8A28B55C643B45356CA40 /* Sources */,
-				1CF18DA3F3585F13068020960EA9A9AD /* Frameworks */,
-				6F945BC8EF8A254CECB6BF29D676EC5F /* Resources */,
+				EB9D91291572F9B72965D8B27CF4304D /* Sources */,
+				ED8740F41AE87AA279AEA55DF414DB9D /* Frameworks */,
+				43EEDF2E1E5051318660F87BA8A85C0A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39159F00A6B7A92DDC2A080341258D55 /* PBXTargetDependency */,
+			);
+			name = "SDKWrapperLibrary-DragonMedicalSpeechKit";
+			productName = DragonMedicalSpeechKit;
+			productReference = ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5E5E2FF1F604070ACD1461DA50F81F37 /* Pods-SDKWrapperLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A09AAB15216CC4CAFBC44F14626EC6 /* Build configuration list for PBXNativeTarget "Pods-SDKWrapperLibrary_Example" */;
+			buildPhases = (
+				587F476D8C1E5FBAB4DB4257C8B53243 /* Headers */,
+				019C59F48D95C35A24027F54D83D4AEC /* Sources */,
+				A58161D035D581D55FDB9B8077F9E41E /* Frameworks */,
+				CAEC6D662C1338B6A1D54F4AC42C7DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22EF0DEC338DC85B067151A14365D3D /* PBXTargetDependency */,
+				93BA10DFE573080A3A34805DF5F9E406 /* PBXTargetDependency */,
 			);
 			name = "Pods-SDKWrapperLibrary_Example";
 			productName = Pods_SDKWrapperLibrary_Example;
@@ -474,8 +656,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				FD20B6D9597060D32984E51027DFEC89 /* PBXTargetDependency */,
-				3106E0C35C093CDC7E82128D375BF25D /* PBXTargetDependency */,
+				FA14DCD92B3005E3924B950C00561917 /* PBXTargetDependency */,
+				C970A8D21CC99519FDCFF803B345E84A /* PBXTargetDependency */,
 			);
 			name = "Pods-SDKWrapperLibrary_Tests";
 			productName = Pods_SDKWrapperLibrary_Tests;
@@ -497,19 +679,34 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
+				ca,
+				da,
+				de,
 				en,
+				es,
+				fi,
+				fr,
+				hu,
+				it,
+				nb,
+				nl,
+				pt,
+				sl,
+				sv,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EBA81CC9B14D7BD7B52A8671063F4EA9 /* Products */;
+			productRefGroup = 9065D967AB38EE701805B3C0F57CEF93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				97D3B6926BF0A2ABAB7F043559FA98A9 /* MicrosoftCognitiveServicesSpeech-iOS */,
 				5E5E2FF1F604070ACD1461DA50F81F37 /* Pods-SDKWrapperLibrary_Example */,
 				B8DDCD6E061F1A1A4F13D0A0F0A51A78 /* Pods-SDKWrapperLibrary_Tests */,
 				1670FE3E1BBAAB2E56900B7651859D97 /* SDKWrapperLibrary */,
+				41680BAACFE05E80E86B85F221D5D1DE /* SDKWrapperLibrary-DragonMedicalSpeechKit */,
 			);
 		};
 /* End PBXProject section */
@@ -522,14 +719,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F945BC8EF8A254CECB6BF29D676EC5F /* Resources */ = {
+		43EEDF2E1E5051318660F87BA8A85C0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26857BFC723C955E92F29674E98EB099 /* _CodeSignature in Resources */,
+				62FC64CC15E833AE4445A74ACC1A001F /* ca.lproj in Resources */,
+				29E8A1516AB5D9DF76A73888AC150B4C /* Correction.storyboardc in Resources */,
+				F2070B9BC864E5AF7BFFAB664E62C389 /* da.lproj in Resources */,
+				B56CDB37FD868B67735F5F4A6EDAD29A /* de.lproj in Resources */,
+				0A1BB7D09F09E47A392F07D53032A44E /* en.lproj in Resources */,
+				535AD202B70B2D857888DE5D6965AA99 /* es.lproj in Resources */,
+				58712E7BF953AE0B391BA554E698CB29 /* fi.lproj in Resources */,
+				FF011BBE3D0655D28F574B7AFC6E4AA6 /* fr.lproj in Resources */,
+				FF1CC9F690DF16A332B4D1E13C2F43F3 /* hu.lproj in Resources */,
+				197ADF9D3A472A5099079E7FF5E11292 /* it.lproj in Resources */,
+				9DD443F0D3AC8CE8BF2C17569447743F /* mid_fa.table in Resources */,
+				EBEF3F841F46443AFAAD271CE4466F09 /* nb.lproj in Resources */,
+				4FA4CA8BA1942F4E5C03A9BF358612A3 /* nl.lproj in Resources */,
+				F330CD4B575F75788BABA9AC73364ED4 /* pt.lproj in Resources */,
+				D13EB162237D42911D19B50316534799 /* sl.lproj in Resources */,
+				87D39999A434F9F2D1DF9BC14E28710B /* sv.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFA3DBD595033B0002AC34FDE70A5F8E /* Resources */ = {
+		65BC0A925E46E4EA9B4D4EC06BC2A8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4D934DA8D1DFBAC31080FFA8DF1F05 /* SDKWrapperLibrary-DragonMedicalSpeechKit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEC6D662C1338B6A1D54F4AC42C7DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -545,20 +767,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		98D21338DCF9ACACB718A7343F8B4C3D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary-xcframeworks.sh",
+				"${PODS_ROOT}/../../SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SDKWrapperLibrary/DragonMedicalSpeechKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69AFD17E6B67DA7C661EF994963966F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/MicrosoftCognitiveServicesSpeech-iOS/MicrosoftCognitiveServicesSpeech-iOS-xcframeworks.sh",
+				"${PODS_ROOT}/MicrosoftCognitiveServicesSpeech-iOS/MicrosoftCognitiveServicesSpeech.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MicrosoftCognitiveServicesSpeech-iOS/MicrosoftCognitiveServicesSpeech.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MicrosoftCognitiveServicesSpeech-iOS/MicrosoftCognitiveServicesSpeech-iOS-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		019C59F48D95C35A24027F54D83D4AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410553A33DCB277A390091600BAE2DB9 /* Pods-SDKWrapperLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11F07AC6C4E141A7CD5A01881FD311DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				35D9145FBCDFFFF4E0CC5C51490E43EE /* Pods-SDKWrapperLibrary_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		296DA724F4A8A28B55C643B45356CA40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C947289505C55FE1460C03579F94C253 /* Pods-SDKWrapperLibrary_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,43 +839,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFCCE6A8F0B46E84E5ABCBC6143940FF /* Sources */ = {
+		96F0A3F31EBE0E32B6D6B3A1D61A027F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0838EEC36B31A3F6DD874D8AB0FB491 /* DLNuanceDictationManager.m in Sources */,
-				3184844BE00FCFBFC14DEE45F9DAD306 /* SDKWrapperLibrary-dummy.m in Sources */,
+				E0E430161D6382C2FD72DA2322B01A5D /* DLNuanceDictationManager.m in Sources */,
+				EAB2B0520AA69F2E6318085B0262A736 /* SDKWrapperLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D91291572F9B72965D8B27CF4304D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3106E0C35C093CDC7E82128D375BF25D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SDKWrapperLibrary_Example";
-			target = 5E5E2FF1F604070ACD1461DA50F81F37 /* Pods-SDKWrapperLibrary_Example */;
-			targetProxy = E95EEA12DA85802A6849DFFA7C6219D4 /* PBXContainerItemProxy */;
-		};
-		39159F00A6B7A92DDC2A080341258D55 /* PBXTargetDependency */ = {
+		93BA10DFE573080A3A34805DF5F9E406 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDKWrapperLibrary;
 			target = 1670FE3E1BBAAB2E56900B7651859D97 /* SDKWrapperLibrary */;
-			targetProxy = A7FCB97F533D79170321B70133279AF4 /* PBXContainerItemProxy */;
+			targetProxy = EBBCDAB0AF07F3124E8A14A805BD1325 /* PBXContainerItemProxy */;
 		};
-		FD20B6D9597060D32984E51027DFEC89 /* PBXTargetDependency */ = {
+		A83C8CBAE075E45F6221583D02B7A6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MicrosoftCognitiveServicesSpeech-iOS";
+			target = 97D3B6926BF0A2ABAB7F043559FA98A9 /* MicrosoftCognitiveServicesSpeech-iOS */;
+			targetProxy = 88D6BFB0F5DBF6F19CAB548E906C02EA /* PBXContainerItemProxy */;
+		};
+		BB29B098D8AB34C5623B01B9079BEE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDKWrapperLibrary-DragonMedicalSpeechKit";
+			target = 41680BAACFE05E80E86B85F221D5D1DE /* SDKWrapperLibrary-DragonMedicalSpeechKit */;
+			targetProxy = 2EE1E777089FD1DEE3D6236B8F1F4E27 /* PBXContainerItemProxy */;
+		};
+		C970A8D21CC99519FDCFF803B345E84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SDKWrapperLibrary_Example";
+			target = 5E5E2FF1F604070ACD1461DA50F81F37 /* Pods-SDKWrapperLibrary_Example */;
+			targetProxy = 5FF0FDF818A65ACB55D2AD893C881934 /* PBXContainerItemProxy */;
+		};
+		F22EF0DEC338DC85B067151A14365D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MicrosoftCognitiveServicesSpeech-iOS";
+			target = 97D3B6926BF0A2ABAB7F043559FA98A9 /* MicrosoftCognitiveServicesSpeech-iOS */;
+			targetProxy = 87F93DDDDCD513C520D66E02A406BC30 /* PBXContainerItemProxy */;
+		};
+		FA14DCD92B3005E3924B950C00561917 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = D0A3066E3BE29EA4CC5E6AA260F44098 /* PBXContainerItemProxy */;
+			targetProxy = 1BAD5E153BD2EC9C34A2A608B3905D8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		189B160941C76FA2A15D741807CCB47B /* Release */ = {
+		0F86CAE2F904A194C5B5D5FF3131E0B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = 8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -625,15 +913,15 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MODULEMAP_FILE = "Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary.modulemap";
+				PRODUCT_MODULE_NAME = SDKWrapperLibrary;
+				PRODUCT_NAME = SDKWrapperLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -646,11 +934,29 @@
 			};
 			name = Release;
 		};
-		2E1C8D26EE57C6EC9E1B0BDAE545D11E /* Release */ = {
+		0FC5A3957037022FCFE74E506E6B00E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDKWrapperLibrary";
+				IBSC_MODULE = SDKWrapperLibrary;
+				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = DragonMedicalSpeechKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1E1B473ADA161CF25060A4FB4BB9D983 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A13C389DB747DAF27A552978EFCEFEC /* Pods-SDKWrapperLibrary_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -664,7 +970,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Tests/Pods-SDKWrapperLibrary_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Tests/Pods-SDKWrapperLibrary_Tests.modulemap";
@@ -682,45 +988,12 @@
 			};
 			name = Release;
 		};
-		48DE2ADA198DD6344F2EFF0C143E959B /* Debug */ = {
+		2044DD7C5E10EDCDECDF37BFD7307FA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		64620AC31D71358B6949FE4CFD58C51C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1266D24F6945F1F2706F994C0EB3CE2E /* Pods-SDKWrapperLibrary_Example.release.xcconfig */;
+			baseConfigurationReference = A0B4A272362E7DF007D7745A6D27E15F /* Pods-SDKWrapperLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -734,7 +1007,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Example/Pods-SDKWrapperLibrary_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Example/Pods-SDKWrapperLibrary_Example.modulemap";
@@ -746,13 +1019,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -802,7 +1074,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -814,11 +1086,12 @@
 			};
 			name = Release;
 		};
-		BA781139DD77FAF8F1E061CD54F27EBC /* Debug */ = {
+		3376956F4ABBFB640E3FAC667654B5FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0B4A272362E7DF007D7745A6D27E15F /* Pods-SDKWrapperLibrary_Example.debug.xcconfig */;
+			baseConfigurationReference = 1B8B9F0B1004312DA3834B4C39C55B48 /* Pods-SDKWrapperLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -830,12 +1103,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Example/Pods-SDKWrapperLibrary_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Tests/Pods-SDKWrapperLibrary_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Example/Pods-SDKWrapperLibrary_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Tests/Pods-SDKWrapperLibrary_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -849,10 +1122,28 @@
 			};
 			name = Debug;
 		};
-		CCC0FA599ABFF841C0F17A028BBBABC8 /* Debug */ = {
+		965D8B94265D4EA9A78612554BD37E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7DED100DB3AF4523610679974339EA9 /* SDKWrapperLibrary.debug.xcconfig */;
+			baseConfigurationReference = A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDKWrapperLibrary";
+				IBSC_MODULE = SDKWrapperLibrary;
+				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = DragonMedicalSpeechKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AAF9F0E0437BDADAEF4B045D05534A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -884,7 +1175,111 @@
 			};
 			name = Debug;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		ACC5A6998DF07236CFD3809829EDD45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EBC92E4E035E8404171AB7370399F6 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B94D396CFA6FABC6F77C32E05C8FAEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B8090C569E21D11EAF6F5DCAD9DE00 /* MicrosoftCognitiveServicesSpeech-iOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5BDCA6C74F5A8BFBC996222B18A0D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31597C5BA9975F515CDFA45E4882D9B /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0CC8636F4F7C61A69298CA27133D77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA79C29B2F7401831C839585F11F15EE /* MicrosoftCognitiveServicesSpeech-iOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -937,7 +1332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -950,11 +1345,12 @@
 			};
 			name = Debug;
 		};
-		D993DD6824F34DE6BB05B57D75FACA5C /* Debug */ = {
+		F9492674B3FDF417E73A70271D8B1B8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B8B9F0B1004312DA3834B4C39C55B48 /* Pods-SDKWrapperLibrary_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1266D24F6945F1F2706F994C0EB3CE2E /* Pods-SDKWrapperLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -966,12 +1362,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Tests/Pods-SDKWrapperLibrary_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Example/Pods-SDKWrapperLibrary_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Tests/Pods-SDKWrapperLibrary_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKWrapperLibrary_Example/Pods-SDKWrapperLibrary_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -979,41 +1375,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FB58C3E4A937D6F74352D4D88CAE743D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1EFFF66C596D2789D975EA40B682638 /* SDKWrapperLibrary.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDKWrapperLibrary/SDKWrapperLibrary.modulemap";
-				PRODUCT_MODULE_NAME = SDKWrapperLibrary;
-				PRODUCT_NAME = SDKWrapperLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1024,20 +1385,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05928761F23EEEBC56723263CAAD35D7 /* Build configuration list for PBXNativeTarget "Pods-SDKWrapperLibrary_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA781139DD77FAF8F1E061CD54F27EBC /* Debug */,
-				64620AC31D71358B6949FE4CFD58C51C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0B10AE7A9D3900ADFF5B9B1038E027EE /* Build configuration list for PBXNativeTarget "Pods-SDKWrapperLibrary_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D993DD6824F34DE6BB05B57D75FACA5C /* Debug */,
-				2E1C8D26EE57C6EC9E1B0BDAE545D11E /* Release */,
+				3376956F4ABBFB640E3FAC667654B5FD /* Debug */,
+				1E1B473ADA161CF25060A4FB4BB9D983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1045,8 +1397,17 @@
 		2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48DE2ADA198DD6344F2EFF0C143E959B /* Debug */,
-				189B160941C76FA2A15D741807CCB47B /* Release */,
+				ACC5A6998DF07236CFD3809829EDD45B /* Debug */,
+				C5BDCA6C74F5A8BFBC996222B18A0D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBB9D33C8647E5C84AD0FE6270C49FB /* Build configuration list for PBXAggregateTarget "MicrosoftCognitiveServicesSpeech-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CC8636F4F7C61A69298CA27133D77C /* Debug */,
+				B94D396CFA6FABC6F77C32E05C8FAEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1054,17 +1415,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76F04ED985402203B68F2FA15A2056FC /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */ = {
+		51A09AAB15216CC4CAFBC44F14626EC6 /* Build configuration list for PBXNativeTarget "Pods-SDKWrapperLibrary_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCC0FA599ABFF841C0F17A028BBBABC8 /* Debug */,
-				FB58C3E4A937D6F74352D4D88CAE743D /* Release */,
+				2044DD7C5E10EDCDECDF37BFD7307FA1 /* Debug */,
+				F9492674B3FDF417E73A70271D8B1B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4A81EC8732E2E3D0A4FE69DC64DC1B /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DragonMedicalSpeechKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965D8B94265D4EA9A78612554BD37E44 /* Debug */,
+				0FC5A3957037022FCFE74E506E6B00E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAE7BDB0C3C74EB835ED46FEB36A00E /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF9F0E0437BDADAEF4B045D05534A8A /* Debug */,
+				0F86CAE2F904A194C5B5D5FF3131E0B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

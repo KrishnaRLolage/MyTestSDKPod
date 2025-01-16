@@ -19,5 +19,16 @@
     "Classes",
     "SDKWrapperLibrary/Classes/**/*.{h,m}"
   ],
-  "exclude_files": "SDKWrapperLibrary/Classes/Exclude"
+  "dependencies": {
+    "MicrosoftCognitiveServicesSpeech-iOS": [
+      "~> 1.33.0"
+    ]
+  },
+  "resource_bundles": {
+    "DragonMedicalSpeechKit": [
+      "SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**",
+      "SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**"
+    ]
+  },
+  "vendored_frameworks": "SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework"
 }

@@ -9,12 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MicrosoftCognitiveServicesSpeech-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SDKWrapperLibrary_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-SDKWrapperLibrary_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDKWrapperLibrary-DragonMedicalSpeechKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

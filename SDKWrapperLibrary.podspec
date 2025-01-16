@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Classes", "SDKWrapperLibrary/Classes/**/*.{h,m}"
-  spec.exclude_files = "SDKWrapperLibrary/Classes/Exclude"
+#  spec.exclude_files = ""
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -134,6 +134,12 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+   
+  spec.dependency "MicrosoftCognitiveServicesSpeech-iOS", "~> 1.33.0"
+  
+  spec.resource_bundles = {
+    'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**', 'SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**']
+  }
+  spec.vendored_frameworks = 'SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework'
 
 end
