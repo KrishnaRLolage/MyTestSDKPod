@@ -26,9 +26,9 @@
   },
   "resource_bundles": {
     "DragonMedicalSpeechKit": [
-      "SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**",
-      "SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**"
+      "SDKWrapperLibrary/Classes/VendorFrameworks/Bundle/Resources/**",
+      "SDKWrapperLibrary/Classes/VendorFrameworks/Bundle/UI/**"
     ]
   },
-  "vendored_frameworks": "SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework"
+  "vendored_frameworks": "SDKWrapperLibrary/Classes/VendorFrameworks/DragonMedicalSpeechKit.xcframework"
 }

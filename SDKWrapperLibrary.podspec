@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SDKWrapperLibrary/Classes/**/*.{h,m}", "SDKWrapperLibrary/VendorFrameworks/**"
+  spec.source_files  = "SDKWrapperLibrary/Classes/**/*.{h,m}"
 #  spec.exclude_files = ""
 
   # spec.public_header_files = "Classes/**/*.h"
