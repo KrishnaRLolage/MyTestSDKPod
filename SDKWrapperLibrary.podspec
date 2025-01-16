@@ -140,6 +140,6 @@ Pod::Spec.new do |spec|
   spec.resource_bundles = {
     'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**', 'SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**']
   }
-  spec.vendored_frameworks = 'SDKWrapperLibrary/Classes/VendorFrameworks/DragonMedicalSpeechKit.xcframework'
+  spec.vendored_frameworks = 'SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework'
 
 end

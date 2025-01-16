@@ -15,10 +15,7 @@
     "git": "https://github.com/KrishnaRLolage/MyTestSDKPod.git",
     "branch": "main"
   },
-  "source_files": [
-    "SDKWrapperLibrary/Classes/**/*.{h,m}",
-    "SDKWrapperLibrary/VendorFrameworks/**"
-  ],
+  "source_files": "SDKWrapperLibrary/Classes/**/*.{h,m}",
   "dependencies": {
     "MicrosoftCognitiveServicesSpeech-iOS": [
       "~> 1.33.0"
@@ -26,9 +23,9 @@
   },
   "resource_bundles": {
     "DragonMedicalSpeechKit": [
-      "SDKWrapperLibrary/Classes/VendorFrameworks/Bundle/Resources/**",
-      "SDKWrapperLibrary/Classes/VendorFrameworks/Bundle/UI/**"
+      "SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**",
+      "SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**"
     ]
   },
-  "vendored_frameworks": "SDKWrapperLibrary/Classes/VendorFrameworks/DragonMedicalSpeechKit.xcframework"
+  "vendored_frameworks": "SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework"
 }
