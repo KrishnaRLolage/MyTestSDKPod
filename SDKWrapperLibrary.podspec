@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/KrishnaRLolage/MyTestSDKPod.git", :branch => "main" }
+  spec.source       = { :git => "https://github.com/KrishnaRLolage/MyTestSDKPod.git", :tag => "v0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -140,7 +140,7 @@ Pod::Spec.new do |spec|
 #  spec.resources = 'SDKWrapperLibrary/DragonMedicalSpeechKit/DragonMedicalSpeechKit.bundle'
   spec.resource_bundles = {
     'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/Resources/**', 'SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/UI/**'],
-    'DictationLibraryResources' => 'DictationLibraryResources/**'
+    'DictationLibraryResources' => 'SDKWrapperLibrary/DictationLibraryResources/**'
   }
   spec.vendored_frameworks = 'SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework'
 #  spec.subspec 'LibResources' do |ss|
