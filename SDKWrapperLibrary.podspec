@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDKWrapperLibrary"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A short description of SDKWrapperLibrary."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "SDKWrapperLibrary/Classes/**/*.{h,m}"
-#  spec.exclude_files = ""
+#  spec.exclude_files = "SDKWrapperLibrary/VendorFrameworks/Bundle/UI/*.{plist}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -137,9 +137,14 @@ Pod::Spec.new do |spec|
    
   spec.dependency "MicrosoftCognitiveServicesSpeech-iOS", "~> 1.33.0"
   
+#  spec.resources = 'SDKWrapperLibrary/DragonMedicalSpeechKit/DragonMedicalSpeechKit.bundle'
   spec.resource_bundles = {
-    'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**', 'SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**']
+    'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/Resources/**', 'SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/UI/**'],
+    'DictationLibraryResources' => 'DictationLibraryResources/**'
   }
   spec.vendored_frameworks = 'SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework'
+#  spec.subspec 'LibResources' do |ss|
+#    ss.resource_bundles = { 'DragonMedicalSpeechKit' => ['SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**'] }
+#  end
 
 end

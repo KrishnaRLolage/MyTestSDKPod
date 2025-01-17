@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDKWrapperLibrary-DictationLibraryResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDKWrapperLibrary-DragonMedicalSpeechKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>

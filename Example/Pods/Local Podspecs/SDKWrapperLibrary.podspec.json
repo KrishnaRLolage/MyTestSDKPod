@@ -1,6 +1,6 @@
 {
   "name": "SDKWrapperLibrary",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "A short description of SDKWrapperLibrary.",
   "description": "Test POD for SDKWrapperLibrary",
   "homepage": "https://github.com/KrishnaRLolage/MyTestSDKPod.git",
@@ -23,9 +23,10 @@
   },
   "resource_bundles": {
     "DragonMedicalSpeechKit": [
-      "SDKWrapperLibrary/VendorFrameworks/Bundle/Resources/**",
-      "SDKWrapperLibrary/VendorFrameworks/Bundle/UI/**"
-    ]
+      "SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/Resources/**",
+      "SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/UI/**"
+    ],
+    "DictationLibraryResources": "DictationLibraryResources/**"
   },
   "vendored_frameworks": "SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework"
 }

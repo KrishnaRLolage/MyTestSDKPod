@@ -26,8 +26,23 @@
     [manager openSession];
 }
 
+
++ (NSBundle *)getResourceBundle
+{
+    NSString * bundlePath = [NSBundle.mainBundle pathForResource:@"Dragon-Medical-SpeechKit-iOS_Bundle" ofType:@"bundle"];
+    if(bundlePath == nil) {
+        bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"DragonMedicalSpeechKit" ofType:@"bundle"];
+    }
+    
+    NSAssert(bundlePath, @"Dragon Medical Resources not found", nil);
+    
+    return [NSBundle bundleWithPath:bundlePath];
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     [manager initVUI:self.view];
+    
+//    [DLIBViewController getResourceBundle];
 }
 
 - (void)didReceiveMemoryWarning

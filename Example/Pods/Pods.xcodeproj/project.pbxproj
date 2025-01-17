@@ -20,56 +20,57 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A1BB7D09F09E47A392F07D53032A44E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C89789BEC094ACE00A5A248A3522E9DC /* en.lproj */; };
+		04D54813EFE3990532D29BE82FC05F5F /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ECEBC238A7969ADEF2B205CCBDC3889F /* nl.lproj */; };
 		0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */; };
 		12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 01199143C6BCA6C39116E520812ADD52 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		171C16F136500446B515E3F446969EA6 /* SDKWrapperLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 997D0EC110A036FACCF82EA8630EEA19 /* SDKWrapperLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		197ADF9D3A472A5099079E7FF5E11292 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4036C70EA562D2EEBED0314E012D9951 /* it.lproj */; };
+		15317FC238DB40D7C5802790A107A592 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2C95E61FB7D06615B2DDA0F785D27B27 /* pt.lproj */; };
+		15677492910EDBE038D9503C9454E755 /* sl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E132E66788DECDC8D7BD5723B228EED8 /* sl.lproj */; };
+		15688FF2E6A91CC20619851161540BDF /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 354C7EFDCCBA4CAB839CF2AE5ACC905B /* it.lproj */; };
+		257F95ADA9801ACBCDA41C473D92228C /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8C8AE26FF4B7F5258A9E459D332068D8 /* fr.lproj */; };
 		267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2624FA6296D9A2E88E6E9E39FB3994 /* FBSnapshotTestController.m */; };
-		26857BFC723C955E92F29674E98EB099 /* _CodeSignature in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB3EA90B654C284ACBC2A0C8E94E2B /* _CodeSignature */; };
-		29E8A1516AB5D9DF76A73888AC150B4C /* Correction.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = BF55FC4DDE8B1C683E1914177C6F8807 /* Correction.storyboardc */; };
+		29C7F491E47148FD1CAAA4FB4E4D3D36 /* Correction.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 8AAEF17EB517B84E25183952D3F4D0EA /* Correction.storyboardc */; };
+		2C139298197BEB8BA8646CEBB857B547 /* SDKWrapperLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F0D7E849FBEA7B09EA06E555E790A5 /* SDKWrapperLibrary-dummy.m */; };
 		33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */; };
 		35D9145FBCDFFFF4E0CC5C51490E43EE /* Pods-SDKWrapperLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE61D792CC465F7BE7901DD4F5F8E63F /* Pods-SDKWrapperLibrary_Tests-dummy.m */; };
 		3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */; };
 		3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F95C5BF3F1C0F1B9BF964FE7DEB29BD /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C287B774926A017E4192A0D276707C2 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 95DF66C14B25B53B1092FD815DA099CC /* fi.lproj */; };
 		410553A33DCB277A390091600BAE2DB9 /* Pods-SDKWrapperLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4004EE7AD67919403898AD7D7C50E2BF /* Pods-SDKWrapperLibrary_Example-dummy.m */; };
-		4FA4CA8BA1942F4E5C03A9BF358612A3 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DC6B3D1CA71E50EC5709AA49606571B8 /* nl.lproj */; };
-		535AD202B70B2D857888DE5D6965AA99 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 119B92275029E2994D2E1C66AF95262B /* es.lproj */; };
+		495BD2EF334E037B29544DC0ABF6AAE1 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 080CC22ED89E93BA940023587CB97CF1 /* hu.lproj */; };
+		4FA7B05517476E3DD65A830577DC9436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		5251476290E489B7CAC841420FB5F644 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 479C1E68D86C02ECD21B249E1E2D2F85 /* da.lproj */; };
+		55B51803D503EA6C64778B00E3702EC4 /* SDKWrapperLibrary-DictationLibraryResources in Resources */ = {isa = PBXBuildFile; fileRef = 31D5DBC085C75277C1E8D1B217B79475 /* SDKWrapperLibrary-DictationLibraryResources */; };
 		55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B8677876B694A50E954A9BF46A14F612 /* FBSnapshotTestCase.m */; };
-		58712E7BF953AE0B391BA554E698CB29 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 94EED6A12B2CFA0D115754DA61E01C47 /* fi.lproj */; };
+		581BD3562B2136E1696FE73E023CA592 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C60061372DBDB649446EC174CD7DB903 /* sv.lproj */; };
 		593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 883B6EEA186C1069DF87B06B0E6950D1 /* UIImage+Compare.m */; };
 		5953443113E6448B330AB16B89FC34D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
-		62FC64CC15E833AE4445A74ACC1A001F /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B8A157C53378919DA600F8E6C32A4BCE /* ca.lproj */; };
+		5DF96039498DA2C0670A0C7FF5F7AFDB /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0FE5A5B6198BA28CD0B8E33C7227E5A0 /* nb.lproj */; };
 		64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0468AD8A22C1DE8ED94FFC0CAC9B81 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		72CBC1EDD2977E0A0E53FBE13B839D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
 		76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 254B86519D833D6A11153216E989B588 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB68DAB93CC18653815A32BF8EA0A9 /* UIImage+Diff.m */; };
 		7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
-		87D39999A434F9F2D1DF9BC14E28710B /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7438420A4655E990B5AFA2231C68578B /* sv.lproj */; };
+		7F1418C650ECA0290FC131BACE6E7436 /* _CodeSignature in Resources */ = {isa = PBXBuildFile; fileRef = B524A4979C7A32564593841BC1CFA6B0 /* _CodeSignature */; };
+		7F5DBC14EAB7AC9E6D001B84F224193D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22DEB77B176DC0DCD81A0606FEBAF8B0 /* en.lproj */; };
 		8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AC675657DAC1DB8F917ECE113DB03 /* SwiftSupport.swift */; };
-		9DD443F0D3AC8CE8BF2C17569447743F /* mid_fa.table in Resources */ = {isa = PBXBuildFile; fileRef = 602C45917D44BEA9A3FF50B2D7598DC7 /* mid_fa.table */; };
-		A04D0FB7C602F5D4B568D77112AF4C7C /* DLNuanceDictationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22213076E582FC7834DEA562A611385D /* DLNuanceDictationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD4D934DA8D1DFBAC31080FFA8DF1F05 /* SDKWrapperLibrary-DragonMedicalSpeechKit in Resources */ = {isa = PBXBuildFile; fileRef = ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */; };
+		95112716EFCD7005DF16FE21626E01D7 /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F34EF183230FED383C15553773C741DA /* ca.lproj */; };
+		9A8CCC81AADD9F97F4BF29B1C5568D4B /* SDKWrapperLibrary-DragonMedicalSpeechKit in Resources */ = {isa = PBXBuildFile; fileRef = ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */; };
 		AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9E5FE626767745837A857DE895FEE /* FBSnapshotTestCasePlatform.m */; };
 		B2816AB17DFFC590FB73929A5A6DE0D5 /* Pods-SDKWrapperLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26E8C66FF9D604CB8625448DB96C1A4 /* Pods-SDKWrapperLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B56CDB37FD868B67735F5F4A6EDAD29A /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B71489A85973E4ECEC8C4B2016E00763 /* de.lproj */; };
+		B4A3E34EB76379E28980A0276281E003 /* DLNuanceDictationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D17B5ECE30D9FDB4895CD3AF77A213 /* DLNuanceDictationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B8B10234E66BC2006DD86A8147745A /* SDKWrapperLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DF8CB0916D0179DE534C360CACF9E5 /* SDKWrapperLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BECE5E4AEC094258CA553E13DB8A8965 /* Pods-SDKWrapperLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9D31641AF977B8D3CABAD1ABAA932D /* Pods-SDKWrapperLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00572EB085D70C3A9695385372B52 /* UIApplication+StrictKeyWindow.m */; };
 		CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B8E96ABEF46B4178F1C29DFCD4B00E /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D13EB162237D42911D19B50316534799 /* sl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C2406C7427F585B988E391B110C13426 /* sl.lproj */; };
+		D47E2977254D31B5611FD9A3D4BB4A61 /* DLNuanceDictationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FC5823150487C63955991B7F1006E /* DLNuanceDictationManager.m */; };
 		DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E0F0F7080748E1C88528CD9ACEA51E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0E430161D6382C2FD72DA2322B01A5D /* DLNuanceDictationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF62E0445FBA12F34DBF96EF4263A152 /* DLNuanceDictationManager.m */; };
+		DCBE2689E1918A877A166ADE85AE551B /* mid_fa.table in Resources */ = {isa = PBXBuildFile; fileRef = 15AECE7DC0C038757EF2D1CA1D9D6011 /* mid_fa.table */; };
 		E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEF60C5349E5C4274E914F67ACEC1F1 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E6ABAA012464E5ADAA80D0968F93D3B6 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7C488DDFFE00EB1A74A24E41D18A4379 /* de.lproj */; };
 		E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F5C268382B74C0B7A6C729A499B7F /* FBSnapshotTestCase-dummy.m */; };
-		E9A767E632A6DDF4EBA3B157C2224A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
 		EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 65092913C5711AC7FAC27A87A7B5347A /* UIImage+Snapshot.m */; };
-		EAB2B0520AA69F2E6318085B0262A736 /* SDKWrapperLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F44F4D608906620EA3456D102D0B9E /* SDKWrapperLibrary-dummy.m */; };
-		EBEF3F841F46443AFAAD271CE4466F09 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8299D1D2052683A7D76E1A206AB6D9BA /* nb.lproj */; };
-		F2070B9BC864E5AF7BFFAB664E62C389 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 097A46616232F326FF51832EEAE04A7C /* da.lproj */; };
-		F330CD4B575F75788BABA9AC73364ED4 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 900B7327EF31A95DC9C47A3D43252044 /* pt.lproj */; };
+		EBD581ABACEAB28EB770A88F744BC24D /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B56D4EF006D087368186D3F18BF8FEC6 /* es.lproj */; };
 		F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D9ADD051B155721230F74DE22F4493 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		FF011BBE3D0655D28F574B7AFC6E4AA6 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9012DBD34DBF469B295F3A4089EFBA8E /* fr.lproj */; };
-		FF1CC9F690DF16A332B4D1E13C2F43F3 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6A99025CF2C60922D4D782D4AABE1B58 /* hu.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,19 +81,12 @@
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		2EE1E777089FD1DEE3D6236B8F1F4E27 /* PBXContainerItemProxy */ = {
+		6AD5E1D559ECDD10D4008AC0BC2671F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41680BAACFE05E80E86B85F221D5D1DE;
-			remoteInfo = "SDKWrapperLibrary-DragonMedicalSpeechKit";
-		};
-		5FF0FDF818A65ACB55D2AD893C881934 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E5E2FF1F604070ACD1461DA50F81F37;
-			remoteInfo = "Pods-SDKWrapperLibrary_Example";
+			remoteGlobalIDString = 97D3B6926BF0A2ABAB7F043559FA98A9;
+			remoteInfo = "MicrosoftCognitiveServicesSpeech-iOS";
 		};
 		87F93DDDDCD513C520D66E02A406BC30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -101,12 +95,26 @@
 			remoteGlobalIDString = 97D3B6926BF0A2ABAB7F043559FA98A9;
 			remoteInfo = "MicrosoftCognitiveServicesSpeech-iOS";
 		};
-		88D6BFB0F5DBF6F19CAB548E906C02EA /* PBXContainerItemProxy */ = {
+		BBA83459DBD85E15D78378F027ACC06D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97D3B6926BF0A2ABAB7F043559FA98A9;
-			remoteInfo = "MicrosoftCognitiveServicesSpeech-iOS";
+			remoteGlobalIDString = 8372C2061DC04B345D3A2FF5ED11ED23;
+			remoteInfo = "SDKWrapperLibrary-DictationLibraryResources";
+		};
+		D7BDA982E4B363B506581D2689436949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5E2FF1F604070ACD1461DA50F81F37;
+			remoteInfo = "Pods-SDKWrapperLibrary_Example";
+		};
+		D8949B1C917190E4B9017CFB904C8991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41680BAACFE05E80E86B85F221D5D1DE;
+			remoteInfo = "SDKWrapperLibrary-DragonMedicalSpeechKit";
 		};
 		EBBCDAB0AF07F3124E8A14A805BD1325 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -119,107 +127,108 @@
 
 /* Begin PBXFileReference section */
 		01199143C6BCA6C39116E520812ADD52 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		097A46616232F326FF51832EEAE04A7C /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = da.lproj; sourceTree = "<group>"; };
-		09A3E4CCCCC787718F7685DB55349D37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		080CC22ED89E93BA940023587CB97CF1 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = hu.lproj; sourceTree = "<group>"; };
 		0B9F5C268382B74C0B7A6C729A499B7F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		119B92275029E2994D2E1C66AF95262B /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = es.lproj; sourceTree = "<group>"; };
+		0FE5A5B6198BA28CD0B8E33C7227E5A0 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nb.lproj; sourceTree = "<group>"; };
+		10ABFAFA79759334321A202ED92ADC7C /* SDKWrapperLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		1266D24F6945F1F2706F994C0EB3CE2E /* Pods-SDKWrapperLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15AECE7DC0C038757EF2D1CA1D9D6011 /* mid_fa.table */ = {isa = PBXFileReference; includeInIndex = 1; path = mid_fa.table; sourceTree = "<group>"; };
+		16E7BF693355BC5022FB900346435517 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1B8B9F0B1004312DA3834B4C39C55B48 /* Pods-SDKWrapperLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F9D31641AF977B8D3CABAD1ABAA932D /* Pods-SDKWrapperLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKWrapperLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		22213076E582FC7834DEA562A611385D /* DLNuanceDictationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNuanceDictationManager.h; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.h; sourceTree = "<group>"; };
-		24940CEC19E7260398D0AF8DC9247D83 /* SDKWrapperLibrary-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SDKWrapperLibrary-xcframeworks.sh"; sourceTree = "<group>"; };
+		22C8F847E5F9C751DDE0FC0BBDD2A419 /* SDKWrapperLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKWrapperLibrary.modulemap; sourceTree = "<group>"; };
+		22DEB77B176DC0DCD81A0606FEBAF8B0 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
 		24F07A014C971DDDA281D05CCA344379 /* MicrosoftCognitiveServicesSpeech.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MicrosoftCognitiveServicesSpeech.xcframework; sourceTree = "<group>"; };
+		2519111F25A54B0C662BC70DF1B51026 /* SDKWrapperLibrary-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SDKWrapperLibrary-xcframeworks.sh"; sourceTree = "<group>"; };
 		254B86519D833D6A11153216E989B588 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		25D4D7DB8B54F6C3D2D5B29A0FD75A99 /* SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
 		26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3AFBB02030FA8D5DB09CA9DE8E99231E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C95E61FB7D06615B2DDA0F785D27B27 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pt.lproj; sourceTree = "<group>"; };
+		31D5DBC085C75277C1E8D1B217B79475 /* SDKWrapperLibrary-DictationLibraryResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SDKWrapperLibrary-DictationLibraryResources"; path = DictationLibraryResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		354C7EFDCCBA4CAB839CF2AE5ACC905B /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = it.lproj; sourceTree = "<group>"; };
 		3F95C5BF3F1C0F1B9BF964FE7DEB29BD /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		4004EE7AD67919403898AD7D7C50E2BF /* Pods-SDKWrapperLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKWrapperLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		4036C70EA562D2EEBED0314E012D9951 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = it.lproj; sourceTree = "<group>"; };
 		4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		42D9ADD051B155721230F74DE22F4493 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		43EBC92E4E035E8404171AB7370399F6 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		479C1E68D86C02ECD21B249E1E2D2F85 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = da.lproj; sourceTree = "<group>"; };
 		4AB6DF3E54AF9088494910D11D397AAD /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		549A11681C5824F44DFB0F9A750AEBD1 /* ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE00572EB085D70C3A9695385372B52 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		602C45917D44BEA9A3FF50B2D7598DC7 /* mid_fa.table */ = {isa = PBXFileReference; includeInIndex = 1; path = mid_fa.table; sourceTree = "<group>"; };
 		65092913C5711AC7FAC27A87A7B5347A /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A234BD25822B216FD4ECBFD1D90900C /* Pods-SDKWrapperLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6A99025CF2C60922D4D782D4AABE1B58 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = hu.lproj; sourceTree = "<group>"; };
+		6A242179FFE2D79C73350FEFB81A6C33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		73B9643A238C876DE966F6A016D9CF59 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		7438420A4655E990B5AFA2231C68578B /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sv.lproj; sourceTree = "<group>"; };
+		740FF0A3B030110D21C7ECC5A691C3A9 /* SDKWrapperLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.release.xcconfig; sourceTree = "<group>"; };
 		7B87C54431C6F8109D8C76186DC2A6E2 /* Pods-SDKWrapperLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKWrapperLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C488DDFFE00EB1A74A24E41D18A4379 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = de.lproj; sourceTree = "<group>"; };
 		7FAB68DAB93CC18653815A32BF8EA0A9 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		80B8090C569E21D11EAF6F5DCAD9DE00 /* MicrosoftCognitiveServicesSpeech-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MicrosoftCognitiveServicesSpeech-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		8299D1D2052683A7D76E1A206AB6D9BA /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nb.lproj; sourceTree = "<group>"; };
 		883B6EEA186C1069DF87B06B0E6950D1 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		88DF8CB0916D0179DE534C360CACF9E5 /* SDKWrapperLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-umbrella.h"; sourceTree = "<group>"; };
 		8A13C389DB747DAF27A552978EFCEFEC /* Pods-SDKWrapperLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.release.xcconfig; sourceTree = "<group>"; };
-		8EAB3EA90B654C284ACBC2A0C8E94E2B /* _CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = _CodeSignature; sourceTree = "<group>"; };
-		900B7327EF31A95DC9C47A3D43252044 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pt.lproj; sourceTree = "<group>"; };
-		9012DBD34DBF469B295F3A4089EFBA8E /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fr.lproj; sourceTree = "<group>"; };
+		8AAEF17EB517B84E25183952D3F4D0EA /* Correction.storyboardc */ = {isa = PBXFileReference; includeInIndex = 1; path = Correction.storyboardc; sourceTree = "<group>"; };
+		8C8AE26FF4B7F5258A9E459D332068D8 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fr.lproj; sourceTree = "<group>"; };
 		92D60EDABE68372CF66617AFA87571D4 /* Pods-SDKWrapperLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		94EED6A12B2CFA0D115754DA61E01C47 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fi.lproj; sourceTree = "<group>"; };
-		997D0EC110A036FACCF82EA8630EEA19 /* SDKWrapperLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-umbrella.h"; sourceTree = "<group>"; };
+		95DF66C14B25B53B1092FD815DA099CC /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fi.lproj; sourceTree = "<group>"; };
 		9C1AC675657DAC1DB8F917ECE113DB03 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0B4A272362E7DF007D7745A6D27E15F /* Pods-SDKWrapperLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKWrapperLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWrapperLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		A26E8C66FF9D604CB8625448DB96C1A4 /* Pods-SDKWrapperLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKWrapperLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A27FC5823150487C63955991B7F1006E /* DLNuanceDictationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNuanceDictationManager.m; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.m; sourceTree = "<group>"; };
+		A2D17B5ECE30D9FDB4895CD3AF77A213 /* DLNuanceDictationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNuanceDictationManager.h; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.h; sourceTree = "<group>"; };
+		A841636EEADE444FFAFDA7E35019421D /* SDKWrapperLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKWrapperLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9E0F0F7080748E1C88528CD9ACEA51E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B31597C5BA9975F515CDFA45E4882D9B /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		B49D2302B25C3D84385BA488BA6ACD16 /* DragonMedicalSpeechKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = DragonMedicalSpeechKit.xcframework; path = SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework; sourceTree = "<group>"; };
+		B524A4979C7A32564593841BC1CFA6B0 /* _CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = _CodeSignature; sourceTree = "<group>"; };
+		B56D4EF006D087368186D3F18BF8FEC6 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = es.lproj; sourceTree = "<group>"; };
 		B5B8E96ABEF46B4178F1C29DFCD4B00E /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B6F40580DEDF207F22E8A08C89F9A366 /* Pods-SDKWrapperLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
-		B71489A85973E4ECEC8C4B2016E00763 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = de.lproj; sourceTree = "<group>"; };
 		B8677876B694A50E954A9BF46A14F612 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		B8A157C53378919DA600F8E6C32A4BCE /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ca.lproj; sourceTree = "<group>"; };
-		B8CDAE9C5E74D230FF4FC69645627401 /* SDKWrapperLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKWrapperLibrary.modulemap; sourceTree = "<group>"; };
 		BA71C1D6A6B93DCF369401ABBFE047AF /* Pods-SDKWrapperLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKWrapperLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BEB2073124E6CD8032C938771EC89297 /* SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
-		BF5264B5DE214440E5465B3EBD3FF58E /* DragonMedicalSpeechKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = DragonMedicalSpeechKit.xcframework; path = SDKWrapperLibrary/VendorFrameworks/DragonMedicalSpeechKit.xcframework; sourceTree = "<group>"; };
-		BF55FC4DDE8B1C683E1914177C6F8807 /* Correction.storyboardc */ = {isa = PBXFileReference; includeInIndex = 1; path = Correction.storyboardc; sourceTree = "<group>"; };
-		C03C53955FE0F0B3791A40A49A3EEBD1 /* ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
 		C15ED5F648CB4F592FE8A9F8E4441E8A /* Pods-SDKWrapperLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKWrapperLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C2406C7427F585B988E391B110C13426 /* sl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sl.lproj; sourceTree = "<group>"; };
-		C89789BEC094ACE00A5A248A3522E9DC /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
+		C3F0D7E849FBEA7B09EA06E555E790A5 /* SDKWrapperLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKWrapperLibrary-dummy.m"; sourceTree = "<group>"; };
+		C60061372DBDB649446EC174CD7DB903 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sv.lproj; sourceTree = "<group>"; };
 		CB2624FA6296D9A2E88E6E9E39FB3994 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		CC94FCD115CAB399F984AC556F8E1D1F /* Pods-SDKWrapperLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKWrapperLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CD0468AD8A22C1DE8ED94FFC0CAC9B81 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		CDB9115D7C470385DFCDBA80AEF2A979 /* Pods-SDKWrapperLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SDKWrapperLibrary_Example"; path = Pods_SDKWrapperLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1B00D8AFB54FA04926FF90D7C3A9E29 /* SDKWrapperLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-prefix.pch"; sourceTree = "<group>"; };
 		D4CA7C86D2B2057B4D7295F88536E0D8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D65794E7025CB62B3131DA630128D8D9 /* Pods-SDKWrapperLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SDKWrapperLibrary_Tests"; path = Pods_SDKWrapperLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC6B3D1CA71E50EC5709AA49606571B8 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nl.lproj; sourceTree = "<group>"; };
+		DF6CC7B8F50047F49A00097C2009F131 /* ResourceBundle-DictationLibraryResources-SDKWrapperLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DictationLibraryResources-SDKWrapperLibrary-Info.plist"; sourceTree = "<group>"; };
+		E132E66788DECDC8D7BD5723B228EED8 /* sl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sl.lproj; sourceTree = "<group>"; };
 		E366F95DA382C15B23BB6DF779631F39 /* Pods-SDKWrapperLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKWrapperLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E984384F654569D8EDD55CB55E4A402E /* SDKWrapperLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWrapperLibrary-prefix.pch"; sourceTree = "<group>"; };
+		ECEBC238A7969ADEF2B205CCBDC3889F /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nl.lproj; sourceTree = "<group>"; };
 		ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SDKWrapperLibrary-DragonMedicalSpeechKit"; path = DragonMedicalSpeechKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEF60C5349E5C4274E914F67ACEC1F1 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		F2D1C5617D4BD6516FF4F7FB11874EDC /* Pods-SDKWrapperLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKWrapperLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		F6F44F4D608906620EA3456D102D0B9E /* SDKWrapperLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKWrapperLibrary-dummy.m"; sourceTree = "<group>"; };
+		F34EF183230FED383C15553773C741DA /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ca.lproj; sourceTree = "<group>"; };
 		FA2DACD595CF2377792046661FA3EFDD /* SDKWrapperLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDKWrapperLibrary; path = SDKWrapperLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA79C29B2F7401831C839585F11F15EE /* MicrosoftCognitiveServicesSpeech-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MicrosoftCognitiveServicesSpeech-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF9E5FE626767745837A857DE895FEE /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		FC3D163AB2C2DAFE7DD906C7F148BAB7 /* Pods-SDKWrapperLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKWrapperLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		FE61D792CC465F7BE7901DD4F5F8E63F /* Pods-SDKWrapperLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKWrapperLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		FE701F178CCC600BFD5A1668B92C96E1 /* MicrosoftCognitiveServicesSpeech-iOS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MicrosoftCognitiveServicesSpeech-iOS-xcframeworks.sh"; sourceTree = "<group>"; };
-		FF62E0445FBA12F34DBF96EF4263A152 /* DLNuanceDictationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNuanceDictationManager.m; path = SDKWrapperLibrary/Classes/DLNuanceDictationManager.m; sourceTree = "<group>"; };
-		FFB646E7EA737F21C83697F2AB6EEB6D /* SDKWrapperLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKWrapperLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37AB6886221761FE6E74BDC5F6411F15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9A767E632A6DDF4EBA3B157C2224A5E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E068DD237B983C4377E1C3024C8A6E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				72CBC1EDD2977E0A0E53FBE13B839D13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E005A923308E5E384742ACF69FCB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +251,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED8740F41AE87AA279AEA55DF414DB9D /* Frameworks */ = {
+		D36B950B04D06EB9695A4618467E7F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA7B05517476E3DD65A830577DC9436 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93DC9EE1AC2A58FD79AB435C594F859 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,14 +269,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E8E3C47752527CB5BA809F12BF8F0C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF5264B5DE214440E5465B3EBD3FF58E /* DragonMedicalSpeechKit.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		14D93F8C6FE47FFDD3D3857FDB121EC1 /* Pods-SDKWrapperLibrary_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,21 +286,6 @@
 			path = "Target Support Files/Pods-SDKWrapperLibrary_Example";
 			sourceTree = "<group>";
 		};
-		15CD400CC25206B4E0C8FF14A81374F5 /* SDKWrapperLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				22213076E582FC7834DEA562A611385D /* DLNuanceDictationManager.h */,
-				FF62E0445FBA12F34DBF96EF4263A152 /* DLNuanceDictationManager.m */,
-				04E8E3C47752527CB5BA809F12BF8F0C /* Frameworks */,
-				D9C0C715EEBCA08CBDA9FAC172A2D4BF /* Pod */,
-				E696EC5924E24BDD19C8E51F878AAA81 /* Resources */,
-				244C084A9408A7852B8F09B8004DDDFC /* Support Files */,
-				5174ACD6F075E969635FABC34A012CF3 /* UI */,
-			);
-			name = SDKWrapperLibrary;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2277AE63F8E73915AF38A623ADE5153C /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,23 +297,6 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		244C084A9408A7852B8F09B8004DDDFC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C03C53955FE0F0B3791A40A49A3EEBD1 /* ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist */,
-				B8CDAE9C5E74D230FF4FC69645627401 /* SDKWrapperLibrary.modulemap */,
-				F6F44F4D608906620EA3456D102D0B9E /* SDKWrapperLibrary-dummy.m */,
-				BEB2073124E6CD8032C938771EC89297 /* SDKWrapperLibrary-Info.plist */,
-				D1B00D8AFB54FA04926FF90D7C3A9E29 /* SDKWrapperLibrary-prefix.pch */,
-				997D0EC110A036FACCF82EA8630EEA19 /* SDKWrapperLibrary-umbrella.h */,
-				24940CEC19E7260398D0AF8DC9247D83 /* SDKWrapperLibrary-xcframeworks.sh */,
-				A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */,
-				8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SDKWrapperLibrary";
-			sourceTree = "<group>";
-		};
 		2EB9084E893A6461AA0E8A0BE60C1DC3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +304,21 @@
 				E8DB0EDBB5037D526DEF1E9A88ACA3F9 /* MicrosoftCognitiveServicesSpeech-iOS */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		49398EC85DDD77E733B068E910549346 /* SDKWrapperLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A2D17B5ECE30D9FDB4895CD3AF77A213 /* DLNuanceDictationManager.h */,
+				A27FC5823150487C63955991B7F1006E /* DLNuanceDictationManager.m */,
+				D20CD506116ED7763DFC64CB395F7BEB /* Frameworks */,
+				56CB5B72E2EC68899941A96FBEE7811A /* Pod */,
+				DFAB71E50274DC7E93AB83DA567CBA63 /* Resources */,
+				CC47772BFA3F9709BF603B6A5B0981F7 /* Support Files */,
+				B1E65ADC01B034DB4692976666CE2E42 /* UI */,
+			);
+			name = SDKWrapperLibrary;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4DCA97BD30FF5578801851A0322332FE /* Core */ = {
@@ -366,13 +358,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5174ACD6F075E969635FABC34A012CF3 /* UI */ = {
+		56CB5B72E2EC68899941A96FBEE7811A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BF55FC4DDE8B1C683E1914177C6F8807 /* Correction.storyboardc */,
+				6A242179FFE2D79C73350FEFB81A6C33 /* LICENSE */,
+				16E7BF693355BC5022FB900346435517 /* README.md */,
+				A841636EEADE444FFAFDA7E35019421D /* SDKWrapperLibrary.podspec */,
 			);
-			name = UI;
-			path = SDKWrapperLibrary/VendorFrameworks/Bundle/UI;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */ = {
@@ -386,13 +379,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9065D967AB38EE701805B3C0F57CEF93 /* Products */ = {
+		9B9032FE57FEB235F6892B6820C34B12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
 				CDB9115D7C470385DFCDBA80AEF2A979 /* Pods-SDKWrapperLibrary_Example */,
 				D65794E7025CB62B3131DA630128D8D9 /* Pods-SDKWrapperLibrary_Tests */,
 				FA2DACD595CF2377792046661FA3EFDD /* SDKWrapperLibrary */,
+				31D5DBC085C75277C1E8D1B217B79475 /* SDKWrapperLibrary-DictationLibraryResources */,
 				ED30E4448AC1746BD0EE1C4CA211284F /* SDKWrapperLibrary-DragonMedicalSpeechKit */,
 			);
 			name = Products;
@@ -407,6 +401,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MicrosoftCognitiveServicesSpeech-iOS";
+			sourceTree = "<group>";
+		};
+		B1E65ADC01B034DB4692976666CE2E42 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEF17EB517B84E25183952D3F4D0EA /* Correction.storyboardc */,
+			);
+			name = UI;
+			path = SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/UI;
 			sourceTree = "<group>";
 		};
 		B7C6A70F8842A363B26700B43B62FD06 /* Targets Support Files */ = {
@@ -441,6 +444,24 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		CC47772BFA3F9709BF603B6A5B0981F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6CC7B8F50047F49A00097C2009F131 /* ResourceBundle-DictationLibraryResources-SDKWrapperLibrary-Info.plist */,
+				549A11681C5824F44DFB0F9A750AEBD1 /* ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist */,
+				22C8F847E5F9C751DDE0FC0BBDD2A419 /* SDKWrapperLibrary.modulemap */,
+				C3F0D7E849FBEA7B09EA06E555E790A5 /* SDKWrapperLibrary-dummy.m */,
+				25D4D7DB8B54F6C3D2D5B29A0FD75A99 /* SDKWrapperLibrary-Info.plist */,
+				E984384F654569D8EDD55CB55E4A402E /* SDKWrapperLibrary-prefix.pch */,
+				88DF8CB0916D0179DE534C360CACF9E5 /* SDKWrapperLibrary-umbrella.h */,
+				2519111F25A54B0C662BC70DF1B51026 /* SDKWrapperLibrary-xcframeworks.sh */,
+				10ABFAFA79759334321A202ED92ADC7C /* SDKWrapperLibrary.debug.xcconfig */,
+				740FF0A3B030110D21C7ECC5A691C3A9 /* SDKWrapperLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDKWrapperLibrary";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -448,51 +469,49 @@
 				D81A757BE795C925198A722F2B170748 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				2EB9084E893A6461AA0E8A0BE60C1DC3 /* Pods */,
-				9065D967AB38EE701805B3C0F57CEF93 /* Products */,
+				9B9032FE57FEB235F6892B6820C34B12 /* Products */,
 				B7C6A70F8842A363B26700B43B62FD06 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D20CD506116ED7763DFC64CB395F7BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49D2302B25C3D84385BA488BA6ACD16 /* DragonMedicalSpeechKit.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D81A757BE795C925198A722F2B170748 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				15CD400CC25206B4E0C8FF14A81374F5 /* SDKWrapperLibrary */,
+				49398EC85DDD77E733B068E910549346 /* SDKWrapperLibrary */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D9C0C715EEBCA08CBDA9FAC172A2D4BF /* Pod */ = {
+		DFAB71E50274DC7E93AB83DA567CBA63 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3AFBB02030FA8D5DB09CA9DE8E99231E /* LICENSE */,
-				09A3E4CCCCC787718F7685DB55349D37 /* README.md */,
-				FFB646E7EA737F21C83697F2AB6EEB6D /* SDKWrapperLibrary.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E696EC5924E24BDD19C8E51F878AAA81 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8EAB3EA90B654C284ACBC2A0C8E94E2B /* _CodeSignature */,
-				B8A157C53378919DA600F8E6C32A4BCE /* ca.lproj */,
-				097A46616232F326FF51832EEAE04A7C /* da.lproj */,
-				B71489A85973E4ECEC8C4B2016E00763 /* de.lproj */,
-				C89789BEC094ACE00A5A248A3522E9DC /* en.lproj */,
-				119B92275029E2994D2E1C66AF95262B /* es.lproj */,
-				94EED6A12B2CFA0D115754DA61E01C47 /* fi.lproj */,
-				9012DBD34DBF469B295F3A4089EFBA8E /* fr.lproj */,
-				6A99025CF2C60922D4D782D4AABE1B58 /* hu.lproj */,
-				4036C70EA562D2EEBED0314E012D9951 /* it.lproj */,
-				602C45917D44BEA9A3FF50B2D7598DC7 /* mid_fa.table */,
-				8299D1D2052683A7D76E1A206AB6D9BA /* nb.lproj */,
-				DC6B3D1CA71E50EC5709AA49606571B8 /* nl.lproj */,
-				900B7327EF31A95DC9C47A3D43252044 /* pt.lproj */,
-				C2406C7427F585B988E391B110C13426 /* sl.lproj */,
-				7438420A4655E990B5AFA2231C68578B /* sv.lproj */,
+				B524A4979C7A32564593841BC1CFA6B0 /* _CodeSignature */,
+				F34EF183230FED383C15553773C741DA /* ca.lproj */,
+				479C1E68D86C02ECD21B249E1E2D2F85 /* da.lproj */,
+				7C488DDFFE00EB1A74A24E41D18A4379 /* de.lproj */,
+				22DEB77B176DC0DCD81A0606FEBAF8B0 /* en.lproj */,
+				B56D4EF006D087368186D3F18BF8FEC6 /* es.lproj */,
+				95DF66C14B25B53B1092FD815DA099CC /* fi.lproj */,
+				8C8AE26FF4B7F5258A9E459D332068D8 /* fr.lproj */,
+				080CC22ED89E93BA940023587CB97CF1 /* hu.lproj */,
+				354C7EFDCCBA4CAB839CF2AE5ACC905B /* it.lproj */,
+				15AECE7DC0C038757EF2D1CA1D9D6011 /* mid_fa.table */,
+				0FE5A5B6198BA28CD0B8E33C7227E5A0 /* nb.lproj */,
+				ECEBC238A7969ADEF2B205CCBDC3889F /* nl.lproj */,
+				2C95E61FB7D06615B2DDA0F785D27B27 /* pt.lproj */,
+				E132E66788DECDC8D7BD5723B228EED8 /* sl.lproj */,
+				C60061372DBDB649446EC174CD7DB903 /* sv.lproj */,
 			);
 			name = Resources;
-			path = SDKWrapperLibrary/VendorFrameworks/Bundle/Resources;
+			path = SDKWrapperLibrary/DragonMedicalSpeechKit/Bundle/Resources;
 			sourceTree = "<group>";
 		};
 		E8DB0EDBB5037D526DEF1E9A88ACA3F9 /* MicrosoftCognitiveServicesSpeech-iOS */ = {
@@ -556,12 +575,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDD8E6A36A0D35A4FBEFC5BCEFA85796 /* Headers */ = {
+		DC072B7434AFF27FD2BB7B3F92862A99 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04D0FB7C602F5D4B568D77112AF4C7C /* DLNuanceDictationManager.h in Headers */,
-				171C16F136500446B515E3F446969EA6 /* SDKWrapperLibrary-umbrella.h in Headers */,
+				B4A3E34EB76379E28980A0276281E003 /* DLNuanceDictationManager.h in Headers */,
+				B5B8B10234E66BC2006DD86A8147745A /* SDKWrapperLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,19 +589,20 @@
 /* Begin PBXNativeTarget section */
 		1670FE3E1BBAAB2E56900B7651859D97 /* SDKWrapperLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AAE7BDB0C3C74EB835ED46FEB36A00E /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */;
+			buildConfigurationList = 559652CFD4EA63A330D256C929215BD4 /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */;
 			buildPhases = (
-				EDD8E6A36A0D35A4FBEFC5BCEFA85796 /* Headers */,
-				98D21338DCF9ACACB718A7343F8B4C3D /* [CP] Copy XCFrameworks */,
-				96F0A3F31EBE0E32B6D6B3A1D61A027F /* Sources */,
-				37AB6886221761FE6E74BDC5F6411F15 /* Frameworks */,
-				65BC0A925E46E4EA9B4D4EC06BC2A8D3 /* Resources */,
+				DC072B7434AFF27FD2BB7B3F92862A99 /* Headers */,
+				C61A507AD146F56C4C7BEAC90CD087DA /* [CP] Copy XCFrameworks */,
+				7053C62EBE65C23FCE529FE7032AB52D /* Sources */,
+				D36B950B04D06EB9695A4618467E7F05 /* Frameworks */,
+				BA97DDF8B0091E9372A727983A9A434D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A83C8CBAE075E45F6221583D02B7A6E0 /* PBXTargetDependency */,
-				BB29B098D8AB34C5623B01B9079BEE70 /* PBXTargetDependency */,
+				5F28A39A66C431E97D333A80E6DFFEC6 /* PBXTargetDependency */,
+				91F9D61CA09AE680CE6116F5120F4023 /* PBXTargetDependency */,
+				A3EE3966D567E2A91799A62222B00F98 /* PBXTargetDependency */,
 			);
 			name = SDKWrapperLibrary;
 			productName = SDKWrapperLibrary;
@@ -591,11 +611,11 @@
 		};
 		41680BAACFE05E80E86B85F221D5D1DE /* SDKWrapperLibrary-DragonMedicalSpeechKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F4A81EC8732E2E3D0A4FE69DC64DC1B /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DragonMedicalSpeechKit" */;
+			buildConfigurationList = EB3E76997CB878DDA61AB12B2450F450 /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DragonMedicalSpeechKit" */;
 			buildPhases = (
-				EB9D91291572F9B72965D8B27CF4304D /* Sources */,
-				ED8740F41AE87AA279AEA55DF414DB9D /* Frameworks */,
-				43EEDF2E1E5051318660F87BA8A85C0A /* Resources */,
+				84CD873AF592B0529F3C8A900861A2F4 /* Sources */,
+				E93DC9EE1AC2A58FD79AB435C594F859 /* Frameworks */,
+				95A387925F53B19F86597A8BA4F23AC6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -625,6 +645,23 @@
 			productName = Pods_SDKWrapperLibrary_Example;
 			productReference = CDB9115D7C470385DFCDBA80AEF2A979 /* Pods-SDKWrapperLibrary_Example */;
 			productType = "com.apple.product-type.framework";
+		};
+		8372C2061DC04B345D3A2FF5ED11ED23 /* SDKWrapperLibrary-DictationLibraryResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA4F7CC2B8365DE864C510E6428972C /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DictationLibraryResources" */;
+			buildPhases = (
+				D4D9D722C393EA4E5734B46629B0F9BA /* Sources */,
+				63E005A923308E5E384742ACF69FCB27 /* Frameworks */,
+				A1D32B15CDAB3C6BC729619218E87BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDKWrapperLibrary-DictationLibraryResources";
+			productName = DictationLibraryResources;
+			productReference = 31D5DBC085C75277C1E8D1B217B79475 /* SDKWrapperLibrary-DictationLibraryResources */;
+			productType = "com.apple.product-type.bundle";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -657,7 +694,7 @@
 			);
 			dependencies = (
 				FA14DCD92B3005E3924B950C00561917 /* PBXTargetDependency */,
-				C970A8D21CC99519FDCFF803B345E84A /* PBXTargetDependency */,
+				F197EB6C356CB833273F1C75912DF2F3 /* PBXTargetDependency */,
 			);
 			name = "Pods-SDKWrapperLibrary_Tests";
 			productName = Pods_SDKWrapperLibrary_Tests;
@@ -697,7 +734,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9065D967AB38EE701805B3C0F57CEF93 /* Products */;
+			productRefGroup = 9B9032FE57FEB235F6892B6820C34B12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -706,6 +743,7 @@
 				5E5E2FF1F604070ACD1461DA50F81F37 /* Pods-SDKWrapperLibrary_Example */,
 				B8DDCD6E061F1A1A4F13D0A0F0A51A78 /* Pods-SDKWrapperLibrary_Tests */,
 				1670FE3E1BBAAB2E56900B7651859D97 /* SDKWrapperLibrary */,
+				8372C2061DC04B345D3A2FF5ED11ED23 /* SDKWrapperLibrary-DictationLibraryResources */,
 				41680BAACFE05E80E86B85F221D5D1DE /* SDKWrapperLibrary-DragonMedicalSpeechKit */,
 			);
 		};
@@ -719,35 +757,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43EEDF2E1E5051318660F87BA8A85C0A /* Resources */ = {
+		95A387925F53B19F86597A8BA4F23AC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26857BFC723C955E92F29674E98EB099 /* _CodeSignature in Resources */,
-				62FC64CC15E833AE4445A74ACC1A001F /* ca.lproj in Resources */,
-				29E8A1516AB5D9DF76A73888AC150B4C /* Correction.storyboardc in Resources */,
-				F2070B9BC864E5AF7BFFAB664E62C389 /* da.lproj in Resources */,
-				B56CDB37FD868B67735F5F4A6EDAD29A /* de.lproj in Resources */,
-				0A1BB7D09F09E47A392F07D53032A44E /* en.lproj in Resources */,
-				535AD202B70B2D857888DE5D6965AA99 /* es.lproj in Resources */,
-				58712E7BF953AE0B391BA554E698CB29 /* fi.lproj in Resources */,
-				FF011BBE3D0655D28F574B7AFC6E4AA6 /* fr.lproj in Resources */,
-				FF1CC9F690DF16A332B4D1E13C2F43F3 /* hu.lproj in Resources */,
-				197ADF9D3A472A5099079E7FF5E11292 /* it.lproj in Resources */,
-				9DD443F0D3AC8CE8BF2C17569447743F /* mid_fa.table in Resources */,
-				EBEF3F841F46443AFAAD271CE4466F09 /* nb.lproj in Resources */,
-				4FA4CA8BA1942F4E5C03A9BF358612A3 /* nl.lproj in Resources */,
-				F330CD4B575F75788BABA9AC73364ED4 /* pt.lproj in Resources */,
-				D13EB162237D42911D19B50316534799 /* sl.lproj in Resources */,
-				87D39999A434F9F2D1DF9BC14E28710B /* sv.lproj in Resources */,
+				7F1418C650ECA0290FC131BACE6E7436 /* _CodeSignature in Resources */,
+				95112716EFCD7005DF16FE21626E01D7 /* ca.lproj in Resources */,
+				29C7F491E47148FD1CAAA4FB4E4D3D36 /* Correction.storyboardc in Resources */,
+				5251476290E489B7CAC841420FB5F644 /* da.lproj in Resources */,
+				E6ABAA012464E5ADAA80D0968F93D3B6 /* de.lproj in Resources */,
+				7F5DBC14EAB7AC9E6D001B84F224193D /* en.lproj in Resources */,
+				EBD581ABACEAB28EB770A88F744BC24D /* es.lproj in Resources */,
+				3C287B774926A017E4192A0D276707C2 /* fi.lproj in Resources */,
+				257F95ADA9801ACBCDA41C473D92228C /* fr.lproj in Resources */,
+				495BD2EF334E037B29544DC0ABF6AAE1 /* hu.lproj in Resources */,
+				15688FF2E6A91CC20619851161540BDF /* it.lproj in Resources */,
+				DCBE2689E1918A877A166ADE85AE551B /* mid_fa.table in Resources */,
+				5DF96039498DA2C0670A0C7FF5F7AFDB /* nb.lproj in Resources */,
+				04D54813EFE3990532D29BE82FC05F5F /* nl.lproj in Resources */,
+				15317FC238DB40D7C5802790A107A592 /* pt.lproj in Resources */,
+				15677492910EDBE038D9503C9454E755 /* sl.lproj in Resources */,
+				581BD3562B2136E1696FE73E023CA592 /* sv.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65BC0A925E46E4EA9B4D4EC06BC2A8D3 /* Resources */ = {
+		A1D32B15CDAB3C6BC729619218E87BD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD4D934DA8D1DFBAC31080FFA8DF1F05 /* SDKWrapperLibrary-DragonMedicalSpeechKit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA97DDF8B0091E9372A727983A9A434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B51803D503EA6C64778B00E3702EC4 /* SDKWrapperLibrary-DictationLibraryResources in Resources */,
+				9A8CCC81AADD9F97F4BF29B1C5568D4B /* SDKWrapperLibrary-DragonMedicalSpeechKit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,7 +814,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		98D21338DCF9ACACB718A7343F8B4C3D /* [CP] Copy XCFrameworks */ = {
+		C61A507AD146F56C4C7BEAC90CD087DA /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -823,6 +869,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7053C62EBE65C23FCE529FE7032AB52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47E2977254D31B5611FD9A3D4BB4A61 /* DLNuanceDictationManager.m in Sources */,
+				2C139298197BEB8BA8646CEBB857B547 /* SDKWrapperLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -839,16 +894,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96F0A3F31EBE0E32B6D6B3A1D61A027F /* Sources */ = {
+		84CD873AF592B0529F3C8A900861A2F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E430161D6382C2FD72DA2322B01A5D /* DLNuanceDictationManager.m in Sources */,
-				EAB2B0520AA69F2E6318085B0262A736 /* SDKWrapperLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9D91291572F9B72965D8B27CF4304D /* Sources */ = {
+		D4D9D722C393EA4E5734B46629B0F9BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -858,29 +911,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5F28A39A66C431E97D333A80E6DFFEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MicrosoftCognitiveServicesSpeech-iOS";
+			target = 97D3B6926BF0A2ABAB7F043559FA98A9 /* MicrosoftCognitiveServicesSpeech-iOS */;
+			targetProxy = 6AD5E1D559ECDD10D4008AC0BC2671F0 /* PBXContainerItemProxy */;
+		};
+		91F9D61CA09AE680CE6116F5120F4023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDKWrapperLibrary-DictationLibraryResources";
+			target = 8372C2061DC04B345D3A2FF5ED11ED23 /* SDKWrapperLibrary-DictationLibraryResources */;
+			targetProxy = BBA83459DBD85E15D78378F027ACC06D /* PBXContainerItemProxy */;
+		};
 		93BA10DFE573080A3A34805DF5F9E406 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDKWrapperLibrary;
 			target = 1670FE3E1BBAAB2E56900B7651859D97 /* SDKWrapperLibrary */;
 			targetProxy = EBBCDAB0AF07F3124E8A14A805BD1325 /* PBXContainerItemProxy */;
 		};
-		A83C8CBAE075E45F6221583D02B7A6E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MicrosoftCognitiveServicesSpeech-iOS";
-			target = 97D3B6926BF0A2ABAB7F043559FA98A9 /* MicrosoftCognitiveServicesSpeech-iOS */;
-			targetProxy = 88D6BFB0F5DBF6F19CAB548E906C02EA /* PBXContainerItemProxy */;
-		};
-		BB29B098D8AB34C5623B01B9079BEE70 /* PBXTargetDependency */ = {
+		A3EE3966D567E2A91799A62222B00F98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SDKWrapperLibrary-DragonMedicalSpeechKit";
 			target = 41680BAACFE05E80E86B85F221D5D1DE /* SDKWrapperLibrary-DragonMedicalSpeechKit */;
-			targetProxy = 2EE1E777089FD1DEE3D6236B8F1F4E27 /* PBXContainerItemProxy */;
+			targetProxy = D8949B1C917190E4B9017CFB904C8991 /* PBXContainerItemProxy */;
 		};
-		C970A8D21CC99519FDCFF803B345E84A /* PBXTargetDependency */ = {
+		F197EB6C356CB833273F1C75912DF2F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SDKWrapperLibrary_Example";
 			target = 5E5E2FF1F604070ACD1461DA50F81F37 /* Pods-SDKWrapperLibrary_Example */;
-			targetProxy = 5FF0FDF818A65ACB55D2AD893C881934 /* PBXContainerItemProxy */;
+			targetProxy = D7BDA982E4B363B506581D2689436949 /* PBXContainerItemProxy */;
 		};
 		F22EF0DEC338DC85B067151A14365D3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -897,9 +956,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F86CAE2F904A194C5B5D5FF3131E0B2 /* Release */ = {
+		0D8FA98426286EC358C3D109CF908AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */;
+			baseConfigurationReference = 10ABFAFA79759334321A202ED92ADC7C /* SDKWrapperLibrary.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -928,28 +987,10 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		0FC5A3957037022FCFE74E506E6B00E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CFA18E53E9A9F2BB3B00F5E1688532C /* SDKWrapperLibrary.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDKWrapperLibrary";
-				IBSC_MODULE = SDKWrapperLibrary;
-				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				PRODUCT_NAME = DragonMedicalSpeechKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
+			name = Debug;
 		};
 		1E1B473ADA161CF25060A4FB4BB9D983 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1023,6 +1064,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		2D9ED942BE551BA51C41C2D341A856A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740FF0A3B030110D21C7ECC5A691C3A9 /* SDKWrapperLibrary.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDKWrapperLibrary";
+				IBSC_MODULE = SDKWrapperLibrary;
+				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/ResourceBundle-DictationLibraryResources-SDKWrapperLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = DictationLibraryResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1122,9 +1180,26 @@
 			};
 			name = Debug;
 		};
-		965D8B94265D4EA9A78612554BD37E44 /* Debug */ = {
+		3B765528567324E66D9CB76B1E818EBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */;
+			baseConfigurationReference = 740FF0A3B030110D21C7ECC5A691C3A9 /* SDKWrapperLibrary.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDKWrapperLibrary";
+				IBSC_MODULE = SDKWrapperLibrary;
+				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/ResourceBundle-DragonMedicalSpeechKit-SDKWrapperLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = DragonMedicalSpeechKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		487CF81F662BA8A938904951F8879E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10ABFAFA79759334321A202ED92ADC7C /* SDKWrapperLibrary.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDKWrapperLibrary";
@@ -1139,9 +1214,26 @@
 			};
 			name = Debug;
 		};
-		AAF9F0E0437BDADAEF4B045D05534A8A /* Debug */ = {
+		8E760B1814D823915B21687F48B86003 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18310D858226D219B7886682E7ECA45 /* SDKWrapperLibrary.debug.xcconfig */;
+			baseConfigurationReference = 10ABFAFA79759334321A202ED92ADC7C /* SDKWrapperLibrary.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SDKWrapperLibrary";
+				IBSC_MODULE = SDKWrapperLibrary;
+				INFOPLIST_FILE = "Target Support Files/SDKWrapperLibrary/ResourceBundle-DictationLibraryResources-SDKWrapperLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = DictationLibraryResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A8FDB889B237470819C1A0F0F6407E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740FF0A3B030110D21C7ECC5A691C3A9 /* SDKWrapperLibrary.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1170,10 +1262,11 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		ACC5A6998DF07236CFD3809829EDD45B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1430,20 +1523,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F4A81EC8732E2E3D0A4FE69DC64DC1B /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DragonMedicalSpeechKit" */ = {
+		559652CFD4EA63A330D256C929215BD4 /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				965D8B94265D4EA9A78612554BD37E44 /* Debug */,
-				0FC5A3957037022FCFE74E506E6B00E2 /* Release */,
+				0D8FA98426286EC358C3D109CF908AFE /* Debug */,
+				A8FDB889B237470819C1A0F0F6407E07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AAE7BDB0C3C74EB835ED46FEB36A00E /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary" */ = {
+		EB3E76997CB878DDA61AB12B2450F450 /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DragonMedicalSpeechKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAF9F0E0437BDADAEF4B045D05534A8A /* Debug */,
-				0F86CAE2F904A194C5B5D5FF3131E0B2 /* Release */,
+				487CF81F662BA8A938904951F8879E1A /* Debug */,
+				3B765528567324E66D9CB76B1E818EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA4F7CC2B8365DE864C510E6428972C /* Build configuration list for PBXNativeTarget "SDKWrapperLibrary-DictationLibraryResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E760B1814D823915B21687F48B86003 /* Debug */,
+				2D9ED942BE551BA51C41C2D341A856A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
